@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perro>
+    <raza>
+        <nombre>Perro de aguas español</nombre>
+        <abreviatura>PAE</abreviatura>
+        <origen>Andalucía</origen>
+        <tamanio>
+            <macho>44 a 50 cm</macho>
+            <hembra>40 a 46 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>19 a 22 kg</macho>
+            <hembra>14 a 19 kg</hembra>
+        </peso>
+        <vida></vida>
+        <camadas></camadas>
+        <enfermedades></enfermedades>
+    </raza>
+    <raza>
+        <nombre></nombre>
+        <abreviatura></abreviatura>
+        <origen></origen>
+        <tamanio>
+            <macho></macho>
+            <hembra></hembra>
+        </tamanio>
+        <peso>
+            <macho></macho>
+            <hembra></hembra>
+        </peso>
+        <vida></vida>
+        <camadas></camadas>
+        <enfermedades></enfermedades>
+    </raza>
+    <raza>
+        <nombre></nombre>
+        <abreviatura></abreviatura>
+        <origen></origen>
+        <tamanio>
+            <macho></macho>
+            <hembra></hembra>
+        </tamanio>
+        <peso>
+            <macho></macho>
+            <hembra></hembra>
+        </peso>
+        <vida></vida>
+        <camadas></camadas>
+        <enfermedades></enfermedades>
+    </raza>
+</perro>
