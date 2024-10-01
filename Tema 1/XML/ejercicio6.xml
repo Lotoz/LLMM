@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <codigo></codigo>
+    <destinatario>
+        <nombrecompleto></nombrecompleto>
+        <dirrecion>
+            <name></name>
+            <numero></numero>
+            <postal_code></postal_code>
+            <piso></piso>
+            <comentarios></comentarios>
+        </dirrecion>
+    </destinatario>
+    <articulos></articulos>
+    <fecha_entrega></fecha_entrega>
+
+</pedidos>
