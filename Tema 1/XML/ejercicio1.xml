@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<europe>
+<pais>
+    <nombre>Suiza</nombre>
+    <capital>Zurich </capital>
+    <poblacion>11020120 </poblacion>
+    <superficie> 12120390m2</superficie>
+</pais>
+<pais>
+    <nombre>Italia</nombre>
+    <capital>Roma</capital>
+    <poblacion> 29038903</poblacion>
+    <superficie>34490324890m2 </superficie>
+</pais>
+<pais>
+    <nombre>Francia</nombre>
+    <capital>Paris</capital>
+    <poblacion>1280328071 </poblacion>
+    <superficie> 897321487834m2</superficie>
+</pais>
+<pais>
+    <nombre>Alemania</nombre>
+    <capital>Berlin</capital>
+    <poblacion>3904128904</poblacion>
+    <superficie>280380338m2 </superficie>
+</pais>
+</europe>
