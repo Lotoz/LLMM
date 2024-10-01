@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo>
+    <pelicula genero="accion" duracion="168">
+        <titulo>DeadpoolAndWolverine</titulo>
+        <director>Ray Reynolds</director>
+        <reparto>
+            <protagonista>Deadpool</protagonista>
+            <secundario1>Wolverine</secundario1>
+            <secundario2>Gabito</secundario2>
+        </reparto>
+        <fecha_estreno>
+            <dia>26</dia>
+            <mes>6</mes>
+            <ayo>2024</ayo>
+        </fecha_estreno>
+    </pelicula>
+    <pelicula genro="ciencia ficcion" duracion="240">
+        <titulo>StarWars</titulo>
+        <director>Jorge Lucas</director>
+        <reparto>
+            <protagonista>Anakin</protagonista>
+            <secundario1>Obi-wan</secundario1>
+            <secundario2>Yoda</secundario2>
+        </reparto>
+        <fecha_estreno>
+            <dia>1</dia>
+            <mes>61</mes>
+            <ayo>2000</ayo>
+        </fecha_estreno>
+    </pelicula>
+</catalogo>
