@@ -4,7 +4,15 @@
         <titulo></titulo>
         <autor></autor>
         <publicacion></publicacion>
-        <genero></genero>
+        <genero>
+            <ciencia_ficcion></ciencia_ficcion>
+            <accion></accion>
+            <terror></terror>
+            <fantasia></fantasia>
+            <romance></romance>
+            <noficcion></noficcion>
+            <historia></historia>
+        </genero>
         <idioma></idioma>
         <sinopsis></sinopsis>
     </libro>
@@ -13,7 +21,13 @@
         <autor></autor>
         <publicacion></publicacion>
         <genero>
-            llenar con  opmciom.
+            <ciencia_ficcion></ciencia_ficcion>
+            <accion></accion>
+            <terror></terror>
+            <fantasia></fantasia>
+            <romance></romance>
+            <noficcion></noficcion>
+            <historia></historia>
         </genero>
         <idioma></idioma>
         <sinopsis></sinopsis>
