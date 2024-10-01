@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca> 
+    <libro>
+        <titulo></titulo>
+        <autor></autor>
+        <publicacion></publicacion>
+        <genero></genero>
+        <idioma></idioma>
+        <sinopsis></sinopsis>
+    </libro>
+    <libro>
+        <titulo></titulo>
+        <autor></autor>
+        <publicacion></publicacion>
+        <genero>
+            llenar con  opmciom.
+        </genero>
+        <idioma></idioma>
+        <sinopsis></sinopsis>
+    </libro>
+</biblioteca> 
