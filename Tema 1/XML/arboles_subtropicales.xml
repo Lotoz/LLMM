@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arboles_subtropicales>
+    <arbol>
+        <nombre>Litchi</nombre>
+        <origen>Filipinas</origen>
+        <variedad>Kway may pink</variedad>
+        <color_del_fruto>Rosa</color_del_fruto>
+        <maduracion>Agosto</maduracion>
+        <riesgo>Diario</riesgo>
+        <precio_por_kilo>3,5€</precio_por_kilo>
+    </arbol>
+    <arbol>
+        <nombre>Logan</nombre>
+        <origen>China</origen>
+        <variedad>Champoo</variedad>
+        <color_del_fruto>Marron</color_del_fruto>
+        <maduracion>Octubre</maduracion>
+        <riesgo>Diario</riesgo>
+        <precio_por_kilo>2,5€</precio_por_kilo>
+    </arbol>
+    <arbol>
+        <nombre>Litchi</nombre>
+        <origen>Florida</origen>
+        <variedad>Mauritius</variedad>
+        <color_del_fruto>Rojo</color_del_fruto>
+        <maduracion>Agosto</maduracion>
+        <riesgo>Diario</riesgo>
+        <precio_por_kilo>3€</precio_por_kilo>
+    </arbol>
+</arboles_subtropicales>
