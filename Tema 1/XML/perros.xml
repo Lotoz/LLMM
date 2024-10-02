@@ -12,40 +12,40 @@
             <macho>19 a 22 kg</macho>
             <hembra>14 a 19 kg</hembra>
         </peso>
-        <vida></vida>
-        <camadas></camadas>
-        <enfermedades></enfermedades>
+        <vida>De 12 a 14 años</vida>
+        <actividad_fisica>Alta</actividad_fisica>
+        <tipo_de_pelo>Largo y rizado</tipo_de_pelo>
     </raza>
     <raza>
-        <nombre></nombre>
-        <abreviatura></abreviatura>
-        <origen></origen>
+        <nombre>Foxhound Americano</nombre>
+        <abreviatura>FA</abreviatura>
+        <origen>Estados Unidos</origen>
         <tamanio>
-            <macho></macho>
-            <hembra></hembra>
+            <macho>55 a 70cm</macho>
+            <hembra>45 a 55cm</hembra>
         </tamanio>
         <peso>
-            <macho></macho>
-            <hembra></hembra>
+            <macho>25 a 45kg</macho>
+            <hembra>25 a 45kg</hembra>
         </peso>
-        <vida></vida>
-        <camadas></camadas>
-        <enfermedades></enfermedades>
+        <vida>De 10 a 12 años</vida>
+        <actividad_fisica>Alta</actividad_fisica>
+        <tipo_de_pelo>Corto y liso</tipo_de_pelo>
     </raza>
     <raza>
-        <nombre></nombre>
-        <abreviatura></abreviatura>
-        <origen></origen>
+        <nombre>Dogo Argentino</nombre>
+        <abreviatura>DG</abreviatura>
+        <origen>Argentina</origen>
         <tamanio>
-            <macho></macho>
-            <hembra></hembra>
+            <macho>55 a 70cm</macho>
+            <hembra>55 a 70cm</hembra>
         </tamanio>
         <peso>
-            <macho></macho>
-            <hembra></hembra>
+            <macho>25 a 45kg</macho>
+            <hembra>25 a 45kg</hembra>
         </peso>
-        <vida></vida>
-        <camadas></camadas>
-        <enfermedades></enfermedades>
+        <vida>De 10 a 12 años</vida>
+        <actividad_fisica>Media</actividad_fisica>
+        <tipo_de_pelo>Corto y liso</tipo_de_pelo>
     </raza>
 </perro>
