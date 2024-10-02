@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pedidos>
-    <codigo></codigo>
+<pedido codigo= "1111">
     <destinatario>
-        <nombrecompleto></nombrecompleto>
+        <nombre_completo> José Antonio Lojo</nombre_completo>
         <dirrecion>
-            <name></name>
-            <numero></numero>
+            <name>calle Barco</name>
+            <numero>4</numero>
             <postal_code></postal_code>
-            <piso></piso>
-            <comentarios></comentarios>
+            <piso >tercer piso</piso>
+            <letra>A</letra>
         </dirrecion>
     </destinatario>
-    <articulos></articulos>
-    <fecha_entrega></fecha_entrega>
-</pedidos>
+    <articulos>bicicleta A2020</articulos>
+    <fecha_entrega>
+        <dia>20</dia>
+        <mes>9</mes>
+        <year>2019</year>
+    </fecha_entrega>
+</pedido>
