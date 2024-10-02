@@ -1,27 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <biblioteca> 
     <libro>
-        <titulo></titulo>
-        <autor></autor>
-        <publicacion></publicacion>
+        <titulo>El hombre de tiza</titulo>
+        <autor>C.J. Tudor</autor>
+        <publicacion>
+            <dia>03</dia>
+            <mes>05</mes>
+            <year>2018</year>
+        </publicacion>
         <genero>
             <ciencia_ficcion></ciencia_ficcion>
             <accion></accion>
-            <terror></terror>
+            <terror>Si</terror>
             <fantasia></fantasia>
             <romance></romance>
-            <noficcion></noficcion>
+            <no_ficcion></no_ficcion>
             <historia></historia>
         </genero>
-        <idioma></idioma>
-        <sinopsis></sinopsis>
+        <idioma>Ingles</idioma>
+        <sinopsis>Hay juegos que solo tienen un final posible...
+            Echando la vista atrás, todo comenzó el día del terrible accidente durante la feria, cuando Eddie, de doce años, conoció al Hombre de Tiza.
+            Fue el Hombre de Tiza quien le dio la idea de los dibujos: una manera de dejar mensajes secretos entre el grupo de amigos.
+            Fue divertido hasta que los dibujos condujeron al cuerpo sin vida de una niña.
+            Sucedió hace treinta años y Ed pensaba que todo había quedado olvidado.
+            Sin embargo, recibe una carta que contiene solo dos cosas: una tiza y el dibujo de un muñeco.
+            La historia se repite y Ed se da cuenta de que el juego en realidad nunca terminó...
+            Todos tenemos secretos.Todos somos culpables de algo.Y los niños no son siempre tan inocentes como parecen.
+            La crítica ha dicho..."</sinopsis>
     </libro>
     <libro>
-        <titulo></titulo>
-        <autor></autor>
-        <publicacion></publicacion>
+        <titulo>Los sueños de Einstein</titulo>
+        <autor>Alan Lightman</autor>
+        <publicacion>
+            <dia></dia>
+            <mes></mes>
+            <year>1993</year>
+        </publicacion>
         <genero>
-            <ciencia_ficcion></ciencia_ficcion>
+            <ciencia_ficcion>Si</ciencia_ficcion>
             <accion></accion>
             <terror></terror>
             <fantasia></fantasia>
@@ -29,7 +45,38 @@
             <noficcion></noficcion>
             <historia></historia>
         </genero>
-        <idioma></idioma>
-        <sinopsis></sinopsis>
+        <idioma>Ingles</idioma>
+        <sinopsis>En 1905, mientras trabajaba en una modesta oficina de patentes en la tranquila 
+            ciudad suiza de Berna, el joven Albert Einstein esbozaba su teoría de la relatividad, una nueva 
+            concepción del tiempo. Inspirándose en estos humildes inicios, el físico y escritor Alan Lightman imagina
+             a un Einstein de ficción que cada noche sueña con mundos en los que el tiempo se rige de maneras diferentes. 
+             En un mundo, el tiempo se congela en el momento en el que somos más felices, en otro, el tiempo transcurre hacia atrás
+            o bien avanza más rápido en un barrio que en otro. Sueña también qué sucedería si conociéramos el fin del mundo de antemano, 
+            si no tuviéramos recuerdos o si no tuviéramos futuro. Los treinta breves relatos que forman este volumen abordan 
+            de forma poética cómo una u otra concepción del tiempo condicionaría de manera radical la actuación del ser humano.</sinopsis>
+    </libro>
+    <libro>
+        <titulo>El nombre del viento</titulo>
+        <autor>Patrick Rothfuss</autor>
+        <publicacion>
+        <dia></dia>
+        <mes></mes>
+        <year>2009</year>
+        </publicacion>
+        <genero>
+            <ciencia_ficcion></ciencia_ficcion>
+            <accion></accion>
+            <terror></terror>
+            <fantasia>Si</fantasia>
+            <romance></romance>
+            <noficcion></noficcion>
+            <historia></historia>   
+        </genero>
+        <idioma>Ingles</idioma>
+        <sinopsis>He robado princesas a reyes agónicos. Incendié la ciudad de Trebon. 
+            He pasado la noche con Felurian y he despertado vivo y cuerdo. Me expulsaron de la Universidad a una edad 
+            a la que a la mayoría todavía no los dejan entrar. He recorrido de noche caminos de los que otros no se atreven 
+            a hablar ni siquiera de día. He hablado con dioses, he amado a mujeres y escrito canciones que hacen llorar a los bardos.
+            "Me llamo Kvothe. Quizás hayas oído hablar de mi."</sinopsis>
     </libro>
 </biblioteca> 
