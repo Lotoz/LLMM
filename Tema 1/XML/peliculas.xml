@@ -15,7 +15,7 @@
             <ayo>2024</ayo>
         </fecha_estreno>
     </pelicula>
-    <pelicula genro="ciencia ficcion" duracion="240">
+    <pelicula genero="ciencia ficcion" duracion="240">
         <titulo>StarWars</titulo>
         <director>Jorge Lucas</director>
         <reparto>
