@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+<persona sexo="masculino">
+    <nombre>Samuel</nombre>
+    <apellido>Hierro</apellido>
+    <ciudad>Arroyo de la Miel</ciudad>
+   <telefono>
+    <casa-tlf>638201229</casa-tlf>
+    <movil-tlf></movil-tlf>
+    <tlf-work></tlf-work>
+   </telefono>
+</persona>
+<persona sexo="femenino">
+    <nombre>Maria</nombre>
+    <apellido>Romero</apellido>
+    <ciudad>Mendoza</ciudad>
+   <telefono>
+    <casa-tlf></casa-tlf>
+    <movil-tlf>+54261463709</movil-tlf>
+    <tlf-work></tlf-work>
+   </telefono>
+</persona>
+<persona sexo="femenino">
+    <nombre>Julieta</nombre>
+    <apellido>Trujillo</apellido>
+    <ciudad>Malaga</ciudad>
+   <telefono>
+    <casa-tlf></casa-tlf>
+    <movil-tlf>3819229839</movil-tlf>
+    <tlf-work></tlf-work>
+   </telefono>
+</persona>
+</agenda>
