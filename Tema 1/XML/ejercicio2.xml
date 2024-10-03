@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <biblioteca> 
-    <libro>
+    <!-- La modificacion del genero a atributo de anotacion y saber que se puede hacer-->
+    <libro genero = "Terror">
         <titulo>El hombre de tiza</titulo>
         <autores>
-            <autor>C.J. Tudor</autor>
+            <autor gender= "male">C.J. Tudor</autor>
         </autores>
         <publicacion>
             <dia>03</dia>
             <mes>05</mes>
             <year>2018</year>
         </publicacion>
-        <genero>Terror</genero>
         <idioma>Ingles</idioma>
         <sinopsis>Hay juegos que solo tienen un final posible...
             Echando la vista atrás, todo comenzó el día del terrible accidente durante la feria, cuando Eddie, de doce años, conoció al Hombre de Tiza.
@@ -22,9 +22,9 @@
             Todos tenemos secretos.Todos somos culpables de algo.Y los niños no son siempre tan inocentes como parecen.
             La crítica ha dicho..."</sinopsis>
             <comentarios>
-                <comentario>Libro entretenido, con varios giros de guion y que engancha desde el principio. 
+                <comentario usser = "Amanda32">Libro entretenido, con varios giros de guion y que engancha desde el principio. 
                     No le puedo pedir mucho más.</comentario>
-                <comentario>Normalita, me ha decepcionado un poco al final. 
+                <comentario usser = "LocoJ1">Normalita, me ha decepcionado un poco al final. 
                     Son demasiadas cosas traídas un poco por los pelos e incluye engañifa al lector 
                     (comprenderá esto quien lo lea).</comentario>
             </comentarios>
@@ -32,7 +32,7 @@
     <libro>
         <titulo>Los sueños de Einstein</titulo>
         <autores> 
-            <autor>Alan Lightman</autor>
+            <autor gender="male">Alan Lightman</autor>
         </autores>
         <publicacion>
             <dia></dia>
@@ -50,18 +50,18 @@
             si no tuviéramos recuerdos o si no tuviéramos futuro. Los treinta breves relatos que forman este volumen abordan 
             de forma poética cómo una u otra concepción del tiempo condicionaría de manera radical la actuación del ser humano.</sinopsis>
             <comentarios>
-                <comentario>Conocí a Álex Fidalgo hace varios años, y he tenido la suerte de poder vivir de cerca 
+                <comentario user = "Kirolm">Conocí a Álex Fidalgo hace varios años, y he tenido la suerte de poder vivir de cerca 
                     el crecimiento de su podcast “Lo que tú digas”. Más allá de que me parezca un producto exitoso, 
                     serio, original y de gran calidad, lo que siempre me llamó la atención fue Alex y su tremenda personalidad, 
                     su gran capacidad para abrirse y contar aquello que a muchas personas les daría autentico pavor.
                 </comentario>
-                <comentario>Buen libro.</comentario>
+                <comentario user = "BotBasic1234">Buen libro.</comentario>
             </comentarios>
     </libro>
     <libro>
         <titulo>El nombre del viento</titulo>
         <autores>
-            <autor>Patrick Rothfuss</autor>
+            <autor gender="male">Patrick Rothfuss</autor>
         </autores>
         <publicacion>
             <dia></dia>
@@ -76,14 +76,14 @@
             a hablar ni siquiera de día. He hablado con dioses, he amado a mujeres y escrito canciones que hacen llorar a los bardos.
             "Me llamo Kvothe. Quizás hayas oído hablar de mi."</sinopsis>
             <comentarios>
-                <comentario>¿Puede alguien ser más grande y tener más carisma que Kvothe? En un momento de la novela, 
+                <comentario user = "La32">¿Puede alguien ser más grande y tener más carisma que Kvothe? En un momento de la novela, 
                     Kvothe opta a ganar el caramillo de plata tocando su laúd cuando de repente se le rompe una cuerda 
                     en mitad de la actuación… En esas líneas llegué a escuchar la música y a lo largo de todo el libro 
                     pude sentir que tenía algo muy especial entre manos. Lo recomiendo con entusiasmo y con todas mis ganas 
                     tanto a los fans de la fantasía como a aquellos, que sin serlo, sí creen en la magia.
-                    Admirado Patrick Rothfuss, publique ya Las puertas de piedra (el tercer libro de la saga). Primer aviso. 
+                    Admirado Patrick Rothfuss, publique ya Las puertas de piedra (el tercer libro de la saga).  
                 </comentario>
-                <comentario>Brutal. La mejor novela de fantasía que he leído nunca. 
+                <comentario user = "Jaunch0">Brutal. La mejor novela de fantasía que he leído nunca. 
                     Rothfuss te absorbe en su universo y hasta que no acaban las casi 900 páginas que tiene el libro no te deja respirar. 
                     Ritmo frenético pero a la vez no sientes que la trama sea precipitada. Kvothe es de los mejores personajes acerca 
                     de los que he leído nunca.
