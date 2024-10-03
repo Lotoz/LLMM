@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perro>
+    <raza>
+        <nombre>Perro de aguas español</nombre>
+        <abreviatura>PAE</abreviatura>
+        <origen>Andalucía</origen>
+        <tamanio>
+            <macho>44 a 50 cm</macho>
+            <hembra>40 a 46 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>19 a 22 kg</macho>
+            <hembra>14 a 19 kg</hembra>
+        </peso>
+        <vida>De 12 a 14 años</vida>
+        <actividad_fisica>Alta</actividad_fisica>
+        <tipo_de_pelo>Largo y rizado</tipo_de_pelo>
+    </raza>
+    <raza>
+        <nombre>Foxhound Americano</nombre>
+        <abreviatura>FA</abreviatura>
+        <origen>Estados Unidos</origen>
+        <tamanio>
+            <macho>55 a 70cm</macho>
+            <hembra>45 a 55cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>25 a 45kg</macho>
+            <hembra>25 a 45kg</hembra>
+        </peso>
+        <vida>De 10 a 12 años</vida>
+        <actividad_fisica>Alta</actividad_fisica>
+        <tipo_de_pelo>Corto y liso</tipo_de_pelo>
+    </raza>
+    <raza>
+        <nombre>Dogo Argentino</nombre>
+        <abreviatura>DG</abreviatura>
+        <origen>Argentina</origen>
+        <tamanio>
+            <macho>55 a 70cm</macho>
+            <hembra>55 a 70cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>25 a 45kg</macho>
+            <hembra>25 a 45kg</hembra>
+        </peso>
+        <vida>De 10 a 12 años</vida>
+        <actividad_fisica>Media</actividad_fisica>
+        <tipo_de_pelo>Corto y liso</tipo_de_pelo>
+    </raza>
+</perro>
