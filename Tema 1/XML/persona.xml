@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base>
+    <persona>
+        <nombre>Ruben</nombre>
+        <fecha_de_nacimiento>
+            <dia>28</dia>
+            <mes>04</mes>
+            <year>2002</year>
+        </fecha_de_nacimiento>
+        <ciudad>Arroyo de la miel</ciudad>
+    </persona>
+    <persona>
+        <nombre>Angel</nombre>
+        <fecha_de_nacimiento>
+            <dia>05</dia>
+            <mes>12</mes>
+            <year>2001</year>
+        </fecha_de_nacimiento>
+        <ciudad>Malaga</ciudad>
+    </persona>
+    <persona>
+        <nombre>Laura</nombre>
+        <fecha_de_nacimiento>
+            <dia>05</dia>
+            <mes>01</mes>
+            <year>2006</year>
+        </fecha_de_nacimiento>
+        <ciudad>Torremolinos</ciudad>
+    </persona>
+</base>
