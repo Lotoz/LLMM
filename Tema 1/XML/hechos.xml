@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <historia>
-    <hechos>
-        <suceso>IBM da a conocer el PC</suceso>
+    <hechos descripcion="IBM da a conocer el PC">
         <fecha>
             <dia>12</dia>
             <mes>8</mes>
             <year>1981</year>
         </fecha>
     </hechos>
-    <hechos>
+    <hechos descripcion="Se funda Google">
         <suceso>Se funda Google</suceso>
         <fecha>
             <dia>4</dia>
@@ -16,7 +15,7 @@
             <year>1998</year>
         </fecha>
     </hechos>
-    <hechos>
+    <hechos descripcion="Se funda Facebook">
         <suceso>Se funda Facebook</suceso>
         <fecha>
             <dia>4</dia>
