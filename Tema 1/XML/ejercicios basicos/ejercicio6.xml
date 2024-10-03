@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido codigo= "1111">
+    <destinatario>
+        <nombre_completo>
+            <nombre> José Antonio</nombre>
+            <apellido>Lojo</apellido>
+        </nombre_completo>
+        <dirrecion>
+            <name>calle Barco</name>
+            <numero>4</numero>
+            <postal_code>29004</postal_code>
+            <provincia>Málaga</provincia>
+            <pais>España</pais>
+            <piso >Tercer piso</piso>
+            <letra>A</letra>
+        </dirrecion>
+    </destinatario>
+    <articulos>
+        <articulo>bicicleta A2020</articulo>
+        <articulo>Un ordenador modelo 1345</articulo>
+    </articulos>
+    <fecha_entrega>
+        <dia>20</dia>
+        <mes>9</mes>
+        <year>2019</year>
+    </fecha_entrega>
+</pedido>
