@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca> 
+    <!-- La modificacion del genero a atributo de anotacion y saber que se puede hacer-->
+    <libro genero = "Terror">
+        <titulo>El hombre de tiza</titulo>
+        <autores>
+            <autor gender= "male">C.J. Tudor</autor>
+        </autores>
+        <publicacion>
+            <dia>03</dia>
+            <mes>05</mes>
+            <year>2018</year>
+        </publicacion>
+        <idioma>Ingles</idioma>
+        <sinopsis>Hay juegos que solo tienen un final posible...
+            Echando la vista atrás, todo comenzó el día del terrible accidente durante la feria, cuando Eddie, de doce años, conoció al Hombre de Tiza.
+            Fue el Hombre de Tiza quien le dio la idea de los dibujos: una manera de dejar mensajes secretos entre el grupo de amigos.
+            Fue divertido hasta que los dibujos condujeron al cuerpo sin vida de una niña.
+            Sucedió hace treinta años y Ed pensaba que todo había quedado olvidado.
+            Sin embargo, recibe una carta que contiene solo dos cosas: una tiza y el dibujo de un muñeco.
+            La historia se repite y Ed se da cuenta de que el juego en realidad nunca terminó...
+            Todos tenemos secretos.Todos somos culpables de algo.Y los niños no son siempre tan inocentes como parecen.
+            La crítica ha dicho..."</sinopsis>
+            <comentarios>
+                <comentario usser = "Amanda32">Libro entretenido, con varios giros de guion y que engancha desde el principio. 
+                    No le puedo pedir mucho más.</comentario>
+                <comentario usser = "LocoJ1">Normalita, me ha decepcionado un poco al final. 
+                    Son demasiadas cosas traídas un poco por los pelos e incluye engañifa al lector 
+                    (comprenderá esto quien lo lea).</comentario>
+            </comentarios>
+    </libro>
+    <libro>
+        <titulo>Los sueños de Einstein</titulo>
+        <autores> 
+            <autor gender="male">Alan Lightman</autor>
+        </autores>
+        <publicacion>
+            <dia></dia>
+            <mes></mes>
+            <year>1993</year>
+        </publicacion>
+        <genero>Ciencia Ficcion</genero>
+        <idioma>Ingles</idioma>
+        <sinopsis>En 1905, mientras trabajaba en una modesta oficina de patentes en la tranquila 
+            ciudad suiza de Berna, el joven Albert Einstein esbozaba su teoría de la relatividad, una nueva 
+            concepción del tiempo. Inspirándose en estos humildes inicios, el físico y escritor Alan Lightman imagina
+             a un Einstein de ficción que cada noche sueña con mundos en los que el tiempo se rige de maneras diferentes. 
+             En un mundo, el tiempo se congela en el momento en el que somos más felices, en otro, el tiempo transcurre hacia atrás
+            o bien avanza más rápido en un barrio que en otro. Sueña también qué sucedería si conociéramos el fin del mundo de antemano, 
+            si no tuviéramos recuerdos o si no tuviéramos futuro. Los treinta breves relatos que forman este volumen abordan 
+            de forma poética cómo una u otra concepción del tiempo condicionaría de manera radical la actuación del ser humano.</sinopsis>
+            <comentarios>
+                <comentario user = "Kirolm">Conocí a Álex Fidalgo hace varios años, y he tenido la suerte de poder vivir de cerca 
+                    el crecimiento de su podcast “Lo que tú digas”. Más allá de que me parezca un producto exitoso, 
+                    serio, original y de gran calidad, lo que siempre me llamó la atención fue Alex y su tremenda personalidad, 
+                    su gran capacidad para abrirse y contar aquello que a muchas personas les daría autentico pavor.
+                </comentario>
+                <comentario user = "BotBasic1234">Buen libro.</comentario>
+            </comentarios>
+    </libro>
+    <libro>
+        <titulo>El nombre del viento</titulo>
+        <autores>
+            <autor gender="male">Patrick Rothfuss</autor>
+        </autores>
+        <publicacion>
+            <dia></dia>
+            <mes></mes>
+            <year>2009</year>
+        </publicacion>
+            <genero>Fantasia</genero>
+            <idioma>Ingles</idioma>
+        <sinopsis>He robado princesas a reyes agónicos. Incendié la ciudad de Trebon. 
+            He pasado la noche con Felurian y he despertado vivo y cuerdo. Me expulsaron de la Universidad a una edad 
+            a la que a la mayoría todavía no los dejan entrar. He recorrido de noche caminos de los que otros no se atreven 
+            a hablar ni siquiera de día. He hablado con dioses, he amado a mujeres y escrito canciones que hacen llorar a los bardos.
+            "Me llamo Kvothe. Quizás hayas oído hablar de mi."</sinopsis>
+            <comentarios>
+                <comentario user = "La32">¿Puede alguien ser más grande y tener más carisma que Kvothe? En un momento de la novela, 
+                    Kvothe opta a ganar el caramillo de plata tocando su laúd cuando de repente se le rompe una cuerda 
+                    en mitad de la actuación… En esas líneas llegué a escuchar la música y a lo largo de todo el libro 
+                    pude sentir que tenía algo muy especial entre manos. Lo recomiendo con entusiasmo y con todas mis ganas 
+                    tanto a los fans de la fantasía como a aquellos, que sin serlo, sí creen en la magia.
+                    Admirado Patrick Rothfuss, publique ya Las puertas de piedra (el tercer libro de la saga).  
+                </comentario>
+                <comentario user = "Jaunch0">Brutal. La mejor novela de fantasía que he leído nunca. 
+                    Rothfuss te absorbe en su universo y hasta que no acaban las casi 900 páginas que tiene el libro no te deja respirar. 
+                    Ritmo frenético pero a la vez no sientes que la trama sea precipitada. Kvothe es de los mejores personajes acerca 
+                    de los que he leído nunca.
+                </comentario>
+            </comentarios>
+    </libro>
+</biblioteca> 
