@@ -17,7 +17,7 @@
     </pelicula>
     <pelicula genero="ciencia ficcion" duracion="240">
         <titulo>StarWars</titulo>
-        <director>Jorge Lucas</director>
+        <director>George Lucas</director>
         <reparto>
             <protagonista>Anakin</protagonista>
             <secundario1>Obi-wan</secundario1>
