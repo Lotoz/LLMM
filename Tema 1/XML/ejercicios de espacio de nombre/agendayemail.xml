@@ -1,0 +1,36 @@
+<ag:agenda xmlns:ag="http://www.ejemplo.com/agenda" xmlns:em="http://www.ejemplo.com/correo">
+    <ag:contacto>
+        <ag:nombre>Juan Peréz</ag:nombre>
+        <ag:mails>
+            <ag:email>juan.perez@example.com</ag:email>
+        </ag:mails>
+        <ag:telefonos>
+            <ag:telefono>+34 600 123 456</ag:telefono>
+        </ag:telefonos>
+        <em:bandeja>
+            <em:correo>
+                <em:remitente>juan.perez@example.com</em:remitente>
+                <em:destinatario>maria.lopez@example.com</em:destinatario>
+                <em:asunto>Reunion</em:asunto>
+                <em:cuerpo>Hola María, ¿Podemos reurnirnos mañana?</em:cuerpo>
+            </em:correo>
+        </em:bandeja>
+    </ag:contacto>
+    <ag:contacto>
+        <ag:nombre>Maria Lopez</ag:nombre>
+        <ag:mails>
+            <ag:email>maria.lopez@example.com</ag:email>
+        </ag:mails>
+        <ag:telefonos>
+            <ag:telefono>+34 600 654 321</ag:telefono>
+        </ag:telefonos>
+        <em:bandeja>
+        <em:correo>
+            <em:remitente>maria.lopez@example.com</em:remitente>
+            <em:destinatario>juan.perez@example.com</em:destinatario>
+            <em:asunto>Re: Reunion</em:asunto>
+            <em:cuerpo>Hola Juan, claro que sí. ¿A las 10:00?</em:cuerpo>
+        </em:correo>
+    </em:bandeja>
+    </ag:contacto>
+</ag:agenda>
