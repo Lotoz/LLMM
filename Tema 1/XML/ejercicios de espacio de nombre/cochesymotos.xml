@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mot:vehiculos xmlns:mot="https://iesbelen.org/xml/motos" xmlns:cars="https://iesbelen.org/xml/coches">
+<vehiculos xmlns:mot="https://iesbelen.org/xml/motos" xmlns:cars="https://iesbelen.org/xml/coches">
     <mot:coche>
         <mot:marca>Toyota</mot:marca>
         <mot:modelo>Corolla</mot:modelo>
@@ -11,4 +11,4 @@
         <cars:cilindrada>600 cc</cars:cilindrada>
         <cars:aceleracion>0-60 mph en 3.2 segundos</cars:aceleracion>
     </cars:motos>
-</mot:vehiculos>
+</vehiculos>
