@@ -1,4 +1,4 @@
-<ag:agenda xmlns:ag="http://www.ejemplo.com/agenda" xmlns:em="http://www.ejemplo.com/correo">
+<agenda xmlns:ag="http://www.ejemplo.com/agenda" xmlns:em="http://www.ejemplo.com/correo">
     <ag:contacto>
         <ag:nombre>Juan Peréz</ag:nombre>
         <ag:mails>
@@ -33,4 +33,4 @@
         </em:correo>
     </em:bandeja>
     </ag:contacto>
-</ag:agenda>
+</agenda>
