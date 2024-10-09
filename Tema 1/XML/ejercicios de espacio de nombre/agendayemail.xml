@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <agenda xmlns:ag="http://www.ejemplo.com/agenda" xmlns:em="http://www.ejemplo.com/correo">
     <ag:contacto>
         <ag:nombre>Juan Peréz</ag:nombre>
