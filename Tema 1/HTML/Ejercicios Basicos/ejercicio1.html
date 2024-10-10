@@ -30,8 +30,8 @@
         <p>Aqui tienes un <a href="https://www.freeformatter.com/html-validator.html">validador</a> de HTML :D</p>
     <h2>Validador de XML</h2>
         <p>Aqui tienes un <a href="https://elvin.tools/es/developer-tools/xml-validator/">validador</a> de XML :D</p>
-        <img src="https://picfiles.alphacoders.com/452/452941.png" alt="Imagen de ejemplo">
-    <h2>SCP</h2>
+        <img src="./imagenes/gatito.jfif" alt="Imagen de ejemplo"/>
+    <h2>Horarios de clases</h2>
         <table>
             <tr>
                 <th>Dia</th>
@@ -50,5 +50,18 @@
             </tr>
         </table>
     <h2>Formulario de contacto</h2>
+    <form action="/enviar" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"/>
+        <br/>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"/>
+        <br/>
+
+        <label for="email">Correo electronico:</label>
+        <input type="email" id="email" name="email"/> <br/>
+
+        <input type="submit" value="Enviar"/>
+    </form>
 </body>
 </html>
