@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido numero="65412" xmlns:info="http://www.iesbelen.org/pedido">
+    <info:fecha>
+        <info:dia>22</info:dia>
+        <info:mes>10</info:mes>
+        <info:year>2015</info:year>
+    </info:fecha>
+    <ordenante xmlns:cliente="http://www.janderenterprises/com/client">
+        <cliente:nombre_completo>
+            <cliente:nombre>Alicia</cliente:nombre>
+            <cliente:apellido>Lopez</cliente:apellido>
+        </cliente:nombre_completo>
+        <cliente:direccion>
+            <cliente:calle>Avenida del condestable</cliente:calle>
+            <cliente:numero>72</cliente:numero>
+            <cliente:poblacion>Almogía</cliente:poblacion>
+            <cliente:provincia>Málaga</cliente:provincia>
+            <cliente:codigo_postal>29211</cliente:codigo_postal>
+        </cliente:direccion>
+    </ordenante>
+    <info:articulos>
+        <info:articulo code="22321-W">
+            <info:nombre>Cortadora de cesped</info:nombre>
+            <info:cantidad>1</info:cantidad>
+            <info:precio_unitario>423.65</info:precio_unitario>
+        </info:articulo>
+        <info:articulo code="73623-A">
+            <info:nombre>Monitor de bebe</info:nombre>
+            <info:cantidad>2</info:cantidad>
+            <info:precio_unitario>89.95</info:precio_unitario>
+        </info:articulo>
+    </info:articulos>
+    <info:comentarios>
+        <info:comentario>Es imprescindible la entrega en horario de tarde.</info:comentario>
+        <info:comentario>El timbre interior no funciona. Hay que llamar a la puerta.</info:comentario>
+    </info:comentarios>
+</pedido>
