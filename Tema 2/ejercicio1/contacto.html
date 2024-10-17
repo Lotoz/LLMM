@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Las mejores peliculas</title>
+    <title>Contacto</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
@@ -14,7 +14,7 @@
         <li><a href="index.html">Pagina principal</a></li>
         <li><a href="cartel.html">Carteles de películas</a></li>
         <li><a href="">Contacto</a></li>
-        <li><a href="https://www.filmaffinity.com/">Filmatyl</a></li>
+        <li><a href="https://www.filmaffinity.com/">Filmaffinity</a></li>
     </ol>
     <hr/>
     <br/>
@@ -28,14 +28,21 @@
             <input type="email" id="email" name="email"/> 
         </div>
         <div>
-            <label for="Mensaje">Comentario:</label>
-            <input type="text" id="Comentario" name="Comentario"/>
+            <label for="Mensaje">Mensaje:</label>
+            <textarea name="comentarios" rows="2" cols="20"></textarea>
         </div>
         <div>
-            
+            <lable for="Opciones">Opciones</lable>
+            <select name="Opciones" id="option">
+                <option value="option">Opcion1</option>
+                <option value="option2">Opcion1</option>
+                <option value="option3">Opcion1</option>
+              </select>
         </div>
+        <div>
             <input type="submit" value="Enviar"/>
             <input type="reset" value="Borrar"/>
+        </div>
     </form>
 </body>
 </html>
