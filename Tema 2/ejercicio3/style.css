@@ -1,0 +1,61 @@
+.body {
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #ff0000;
+    background-color:#DFF5FD;
+    position: center;
+}
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-style: bold;
+    color:#00008b;
+    border-top: 20px;
+    border-bottom: 20px;
+    border-left:20px;
+    border-right: 20px;
+    background-color: #DFF5FD;
+}
+.h2 {
+    font-size: 16px;
+    font-style: bold;
+}
+.lista1 {
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #ff0000; 
+}
+.lista2 {
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #008000; 
+}
+.bloque1 {
+    background-color: #ff6666;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 3px #74030A;
+    word-spacing: 15px;
+    border-top: 20px;
+    border-bottom: 20px;
+    width: 50%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+}
+.bloque2 {
+    background-color: #0099ff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 3px darkblue;
+    word-spacing: 15px;
+    border-top: 20px;
+    border-bottom: 20px;
+    width: 50%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+}
