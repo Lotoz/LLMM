@@ -1,61 +1,78 @@
-.body {
+body {
     font-family: Verdana, 'Geneva', Tahoma, sans-serif;
     font-size: 12px;
     color: #000000;
-    border-width: 20px;
-    border-style: solid;
-    border-color: #ff0000;
-    background-color:#DFF5FD;
-    position: center;
+    border-color: #ffffff;
+    background-color: none;
+    margin: 20px;
+    background-color: #dff5fd;
+   
 }
-.h1{
+h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
-    font-style: bold;
+    font-weight: bolder;
     color:#00008b;
-    border-top: 20px;
-    border-bottom: 20px;
-    border-left:20px;
-    border-right: 20px;
-    background-color: #DFF5FD;
+    border-color: #00008b;
+    border-top: solid thin;
+    border-bottom: solid thin;
+    background-color: white;
+    margin: 20px;
+    text-align: center;
 }
-.h2 {
+h2 {
     font-size: 16px;
     font-style: bold;
 }
 .lista1 {
-    font-style: bold;
+    font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     color: #ff0000; 
 }
 .lista2 {
-    font-style: bold;
+    font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     color: #008000; 
 }
+.fecha {
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: red; 
+}
 .bloque1 {
-    background-color: #ff6666;
+    background-color: #ff9797;
+    color: #74030A;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    border: solid 3px #74030A;
-    word-spacing: 15px;
-    border-top: 20px;
-    border-bottom: 20px;
+    border: solid 3px darkred;
+    border-spacing: 15px;
+    border: auto;
     width: 50%;
     border-radius: 25px;
     box-shadow: 2px 2px 5px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 .bloque2 {
-    background-color: #0099ff;
+    background-color: lightblue;
+    color: darkblue;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    border: solid 3px darkblue;
-    word-spacing: 15px;
-    border-top: 20px;
-    border-bottom: 20px;
+    border: dotted 3px rgb(107, 107, 248);
+    border-spacing: 15px;
+    border: auto;
     width: 50%;
     border-radius: 25px;
     box-shadow: 2px 2px 5px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
