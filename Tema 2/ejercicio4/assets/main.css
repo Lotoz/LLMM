@@ -1,0 +1,45 @@
+body{
+    background-color: gainsboro;
+    color: #00008b;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#00008b;
+    border-color: #00008b;
+    border-top: solid thin;
+    border-bottom: solid thin;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+}
+nav {
+    background-color: #ff9797;
+    color: #74030A;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 3px darkred;
+    border-spacing: 15px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:70%;
+    padding: 10px;
+    overflow: hidden;    
+    font-weight: bolder;  
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    text-decoration:none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    text-decoration: wavy;
+    text-decoration-line: underline;
+}
