@@ -30,6 +30,9 @@ nav {
     overflow: hidden;    
     font-weight: bolder;  
 }
+nav ul{
+    list-style-image: url(./carpeta.gif);
+}
 a{
     text-decoration: none;
 }
@@ -40,6 +43,5 @@ a:visited{
     color: white;
 }
 a:hover{
-    text-decoration: wavy;
     text-decoration-line: underline;
 }

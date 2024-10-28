@@ -5,7 +5,7 @@
         <info:mes>10</info:mes>
         <info:year>2015</info:year>
     </info:fecha>
-    <cliente:ordenante xmlns:cliente="http://www.janderenterprises/com/client">
+    <info:ordenante xmlns:cliente="http://www.janderenterprises/com/client">
         <cliente:nombre_completo>
             <cliente:nombre>Alicia</cliente:nombre>
             <cliente:apellido>Lopez</cliente:apellido>
@@ -17,7 +17,7 @@
             <cliente:provincia>Málaga</cliente:provincia>
             <cliente:codigo_postal>29211</cliente:codigo_postal>
         </cliente:direccion>
-    </cliente:ordenante>
+    </info:ordenante>
     <info:articulos>
         <info:articulo code="22321-W">
             <info:nombre>Cortadora de cesped</info:nombre>
