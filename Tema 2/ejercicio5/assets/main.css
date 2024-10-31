@@ -1,3 +1,38 @@
 body{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px 5px 5px 5px;
+    background-color: #E9ECFC;
+    width: 90%;
+    text-align: center;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: red;
+    text-align: center;
+}
+.logo{
     
+}
+.honda1{
+    float: right;
+}
+.honda2{
+    float:left;
+}
+h2 {
+    border-bottom: solid thin;
+    border-color: blue;
+    text-align: right;
+    color: blue;
+}
+nav{
+    border: dotted ;
+    background-color: lightyellow;
+    font-family: sans-serif;
+    font-style: normal;
+}
+h3 {
+
 }
