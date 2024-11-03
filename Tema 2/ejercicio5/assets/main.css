@@ -12,6 +12,9 @@ h1{
     color: red;
     text-align: center;
 }
+p{
+    text-align: justify;
+}
 .logo{
     
 }
@@ -20,19 +23,39 @@ h1{
 }
 .honda2{
     float:left;
+    padding-bottom: 2px;
 }
 h2 {
-    border-bottom: solid thin;
+    border-bottom: solid 2px;
     border-color: blue;
     text-align: right;
     color: blue;
+    font-style: bold;
+    padding-top: 45px;
 }
 nav{
     border: dotted ;
-    background-color: lightyellow;
+    background-color: #ffffcc;
     font-family: sans-serif;
     font-style: normal;
+    margin-right: 65%;
+    margin-left: 5%;
+    text-align: left;
 }
-h3 {
-
+.presupuesto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:black;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+}
+.precio{
+    color:red;
+}
+.link{
+    text-align: left;
 }
