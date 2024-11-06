@@ -1,0 +1,35 @@
+/* colores de la paginahttps://html-color.codes/purple
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_animations/Using_CSS_animations*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+}
+caption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: blueviolet;
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    border: solid thin;
+}
+table, td, th{
+    padding: 2px;
+    
+}
+td, th{
+    background-color: #e0b0ff;   
+}
+th{
+    background-color: #dda0dd;
+    color:purple;
+    border-bottom: solid 2px #7b68ee;
+}
+td{
+    background-color: #e0b0ff;
+}
