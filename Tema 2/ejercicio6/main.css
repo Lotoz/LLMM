@@ -2,34 +2,43 @@
 https://developer.mozilla.org/es/docs/Web/CSS/CSS_animations/Using_CSS_animations*/
 body{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 12px;
     font-style: normal;
-    color: black;
+    color:black;
+    font-size: 30px;
 }
-caption{
+table.Tabla1{
+    border-collapse: collapse;
+    text-align: center;
+    border:solid thin #C7C3C3;
+    text-align: center;
+    margin:auto;
+}
+table.Tabla1 caption{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
-    color: blueviolet;
+    color:green;
     text-align: center;
 }
-table{
+table.Tabla1 td,th{
+    border-collapse: collapse;
+}
+table.Tabla1 th{
+    border-bottom: solid thin #99AABB;
+    background-color: #FFEFAD;
+    color: #AD9223;
+}
+table.Tabla1 tr.azulClaro{
+    background-color: #DCE8F2;
+}
+table.Tabla1 tr.azulOscuro{
+    background-color:#C8E0F6;
+}
+table.Tabla1 tr.recreo{
+    background-color: #778FA4;
+}
+div{
     text-align: center;
     margin: auto;
-    border-collapse: collapse;
-    border: solid thin;
-}
-table, td, th{
-    padding: 2px;
-    
-}
-td, th{
-    background-color: #e0b0ff;   
-}
-th{
-    background-color: #dda0dd;
-    color:purple;
-    border-bottom: solid 2px #7b68ee;
-}
-td{
-    background-color: #e0b0ff;
+    font-size: small;
 }

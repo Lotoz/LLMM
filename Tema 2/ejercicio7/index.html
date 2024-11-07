@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario</title>
+    <meta name ="author" content="Lotoz"/>
+    <meta name="keywords" content="Practica, Horario, DAW1"/>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Ejercicio1</h1>
+    <form id="formulario1" name="formulario1" method="post" action="pagino-destino.php">
+        <fieldset>
+            <legend>Detalles Personales</legend>
+            <div>
+                <label for="nombre" >Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"/>
+            </div>
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" name="edad" maxlength="3" min="0"/>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Informacion del comentario</legend>
+            <div>
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Escribe tu usuario"/>
+            </div>
+            <div>
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password"/>
+            </div>
+            <div>
+                <label for="coment">Comentario</label>
+                <textarea cols="30" rows="1" id="coment" name="coment" placeholder="Escribe tu comentario"></textarea>
+                <input type="submit" value="Enviar Comentario"/>
+                <input type="reset" value="Eliminar"/>
+            </div>
+            <div>
+                <label for="email">Correo electronico:</label>
+                <input type="email" id="email" name="email"placeholder="Escribe tu correo electronico"/>
+            </div>
+            <div>
+                <label for="birthday">Fecha de nacimiento</label>
+                <input type="date" id="birthday" name="birthday"/>
+            </div>
+            <div>
+                <label for="fichero">Introduce un fichero</label>
+                <input type="file" id="fichero" name="fichero"/>
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Eliminar"/>
+            </div>
+        </fieldset>
+            <h1>Ejercicio2</h1>
+            <div>
+                <label for="nombre" >Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"/>
+            </div>
+            <div>
+                <label for="coment">Comentario</label>
+                <textarea cols="10" rows="3" id="coment" name="coment" placeholder="Escribe tu comentario"></textarea>
+                <input type="submit" value="Enviar Comentario"/>
+                <input type="reset" value="Eliminar"/>
+            </div>
+            <div>
+                <label for="color"> Seleccione el color de su avatar</label>
+                <input type="color" id="color" name="color"/>
+            </div>
+            <h1>Ejercicio3</h1>
+            <label for="food">Elige tu comida favorita</label>
+            <select id="food" name="food">
+                <option value="Empanada">Empanada</option>
+                <option value="Cachopo">Cachopo</option>
+                <option value="Milanesa">Milanesa</option>
+                <option value="Asado">Asado</option>
+            </select>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Eliminar"/>
+            <h1>Ejercicio4</h1>
+            <div>
+                <label for="comida">Elige tu comida favorita</label>
+                <input id="comida" name="comida" value="Empanada" type="checkbox" checked="">Empanada</div>
+                <input id="comida" name="comida" value="Cachopo" type="checkbox" checked="">Cachopo</input>
+                <input id="comida" name="comida" value="Milanesa" type="checkbox" checked="">Milanesa</input>
+            </div>
+            <div>
+                <label for="cash">Metodo de pago</label>
+                <input id="tarjeta" name="tarjeta" value="Tarjeta" type="radio" checked="">Tarjeta</div>
+                <input id="paypal" name="paypal" value="Paypal" type="radio" checked="">Paypal</input>
+                <input id="efectivo" name="efectivo" value="Efectivo" type="radio" checked="">efectivo</input>
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Eliminar"/>
+            </div>
+    </form>
+</body>
+</html>
