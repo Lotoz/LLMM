@@ -1,0 +1,33 @@
+body {
+    background-color: #3d3c3c;
+    color: aliceblue;
+}
+div {
+    display: block;
+    clear: both;
+}
+
+div label {
+    width: 10%;
+    float: left;
+}
+div textarea {
+    width: 10%;
+    float: left;
+}
+div input{
+    border: solid 2px #000000;
+    margin: 3px;
+    padding: 2px;
+}
+.ejercicio2 {
+    
+}
+.ejercicio3 {
+    display: inline-block;
+    padding-right:5%;
+
+}
+.ejercicio4 {
+    display: inline-block;
+}
