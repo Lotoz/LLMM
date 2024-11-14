@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Pediddo Pizza</h1>
+    <form id="formulario1" name="formulario1" method="post" action="pagino-destino.php">
+        <fieldset>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"/>
+            </div>
+            <div>
+                <label for="dirrecion">Dirreccion</label>
+                <input type="text" id="dirrecion" name="dirrecion" placeholder="Escribe tu dirrecion"/>
+            </div>
+            <div>
+                <label for="ingredientes">Ingredientes</label>
+                <input id="queso" name="queso" value="queso" type="radio">Queso</div>
+                <input id="cebolla" name="cebolla" value="cebolla" type="radio">Cebolla</input>
+                <input id="pimiento" name="pimiento" value="pimiento" type="radio">Pimiento</input>
+            </div>
+            <div>
+                <label for="sizes">Sizes</label>
+                <input id="small" name="small" value="small" type="checkbox">Small</div>
+                <input id="medium" name="medium" value="medium" type="checkbox">Medium</input>
+                <input id="big" name="big" value="big" type="checkbox">Big</input>
+            </div>
+            <div>
+                <label for="credit">Tarjeta</label>
+                <select id="credit" name="credit">
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="bitcoin">Bitcoin</option>
+                    <option value="efectivo">Efectivo</option>
+            </div>
+            <div>
+                <label for="coment">Comentario</label>
+                <textarea cols="10" rows="3" id="coment" name="coment" placeholder="Escribe tu comentario"></textarea>
+                <input type="submit" value="Enviar Comentario"/>
+                <input type="reset" value="Eliminar"/>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
