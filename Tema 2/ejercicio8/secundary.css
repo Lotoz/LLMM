@@ -1,0 +1,28 @@
+form{
+    background-color:  #ffcc99;
+    margin: auto;
+    width: 600px;
+}
+form h1{
+    background-color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    font-style: bold;
+    text-align: center;
+    padding: auto;
+}
+form div label{
+    background-color: maroon;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: white;
+    font-style: bold;
+    text-align: center;
+    padding: 2px 10px 2px 10px;
+}
+h2{
+    text-align: center;
+    margin: auto;
+    font-size: small;
+}

@@ -1,35 +1,59 @@
-
-
-/*body {
-    background-color: #3d3c3c;
-    color: aliceblue;
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    font-style:normal;
+    background-color: gray;
+    margin: 10px;
 }
-div {
+form {
+    margin: auto;
+    background-color: darkblue;
+    border: solid black 2px;
+    width: 600px;
+    padding: 10px;
+    color: white;
+}
+div{
+    padding: 1px;
     display: block;
     clear: both;
+    margin: 3px 3px 3px 3px;
+}
+div label{
+    width: 10px;
+    display: block;
+    float: left;
+    clear: none;
+    margin: 3px 3px 3px 3px;
 }
 
-div label {
-    width: 10%;
-    float: left;
-}
-div textarea {
-    width: 10%;
-    float: left;
-}
 div input{
     border: solid 2px #000000;
-    margin: 3px;
+    margin: 3px 3px 3px 3px;
     padding: 2px;
-}
-.ejercicio2 {
+    clear: both;
+    display: inline-flex;
+    float: left;
     
 }
-.ejercicio3 {
-    display: inline-block;
-    padding-right:5%;
-
+div label select{
+    display: list-item;
+    float: right;
+    clear: both;
 }
-.ejercicio4 {
-    display: inline-block;
+h2{
+    text-align: center;
+    margin: auto;
+    font-size: small;
+}
+/*form div label input{
+    float:left;
+    display: block;
+}
+form div textarea {
+    width: 10%;
+    display: block;
+    float: left;
+    clear: both;   
 }*/

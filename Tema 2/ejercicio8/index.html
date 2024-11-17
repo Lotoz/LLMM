@@ -4,14 +4,15 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
+    <meta name="author" content="Lotoz"/>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
-<body>
-    <h1>Pediddo Pizza</h1>
+<body>    
     <form id="formulario1" name="formulario1" method="post" action="pagino-destino.php">
         <fieldset>
+            <legend>Pedido Pizza</legend>
             <div>
                 <label for="nombre">Nombre</label>
                 <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"/>
@@ -22,12 +23,16 @@
             </div>
             <div>
                 <label for="ingredientes">Ingredientes</label>
+            </div>
+            <div>
                 <input id="queso" name="queso" value="queso" type="radio">Queso</div>
                 <input id="cebolla" name="cebolla" value="cebolla" type="radio">Cebolla</input>
                 <input id="pimiento" name="pimiento" value="pimiento" type="radio">Pimiento</input>
             </div>
             <div>
                 <label for="sizes">Sizes</label>
+            </div>
+            <div>    
                 <input id="small" name="small" value="small" type="checkbox">Small</div>
                 <input id="medium" name="medium" value="medium" type="checkbox">Medium</input>
                 <input id="big" name="big" value="big" type="checkbox">Big</input>
@@ -43,10 +48,13 @@
             <div>
                 <label for="coment">Comentario</label>
                 <textarea cols="10" rows="3" id="coment" name="coment" placeholder="Escribe tu comentario"></textarea>
+            </div>
+            <div>
                 <input type="submit" value="Enviar Comentario"/>
                 <input type="reset" value="Eliminar"/>
             </div>
         </fieldset>
     </form>
+    <h2><a href="secundary.html">Ejercicio dificil</a></h2>
 </body>
 </html>
