@@ -10,49 +10,56 @@
     <script src='main.js'></script>
 </head>
 <body>    
-    <form id="formulario1" name="formulario1" method="post" action="pagino-destino.php">
-        <fieldset>
+    <form class="caja" id="formulario1" name="formulario1" method="post" action="pagino-destino.php">
+        <fieldset >
             <legend>Pedido Pizza</legend>
             <div>
                 <label for="nombre">Nombre</label>
                 <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"/>
             </div>
-            <div>
+            <div class="dirrecion">
                 <label for="dirrecion">Dirreccion</label>
                 <input type="text" id="dirrecion" name="dirrecion" placeholder="Escribe tu dirrecion"/>
             </div>
-            <div>
-                <label for="ingredientes">Ingredientes</label>
+            <div class="linea">
+                <div>
+                    <label for="ingredientes">Ingredientes</label>
+                </div>
+                <div class="opciones">
+                    <input id="queso" name="queso" value="queso" type="radio">
+                    <label for="ComidaOpcion1" class="horizontal">Queso</label>
+                    <input id="cebolla" name="queso" value="cebolla" type="radio"/>
+                    <label for="ComidaOpcion2" class="horizontal">Queso</label>
+                    <input id="pimiento" name="queso" value="pimiento" type="radio"/>
+                    <label for="ComidaOpcion3" class="horizontal">Pimiento</label>
+                </div>
             </div>
-            <div>
-                <input id="queso" name="queso" value="queso" type="radio">
-                <label for="ComidaOpcion">Queso</label>
-                <input id="cebolla" name="cebolla" value="cebolla" type="radio"/>
-                <label for="ComidaOpcion">Queso</label>
-                <input id="pimiento" name="pimiento" value="pimiento" type="radio">Pimiento</input>
-            </div>
-            <div>
-                <label for="sizes">Sizes</label>
-            </div>
-            <div>    
-                <input id="small" name="small" value="small" type="checkbox">Small</div>
-                <input id="medium" name="medium" value="medium" type="checkbox">Medium</input>
-                <input id="big" name="big" value="big" type="checkbox">Big</input>
+            <div class="linea">
+                <div>
+                    <label for="sizes">Sizes</label>
+                </div>
+                <div class="opciones">    
+                    <input id="small" name="small" value="small" type="checkbox"/>
+                    <label for="sizes1" class="horizontal">Small</label>
+                    <input id="medium" name="medium" value="medium" type="checkbox"/>
+                    <label for="sizes2" class="horizontal">Medium</label>
+                    <input id="big" name="big" value="big" type="checkbox"/>
+                    <label for="sizes3" class="horizontal">Big</label>
+                </div>
             </div>
             <div>
                 <label for="credit">Tarjeta</label>
                 <select id="credit" name="credit">
                     <option value="visa">Visa</option>
                     <option value="mastercard">Mastercard</option>
-                    <option value="bitcoin">Bitcoin</option>
-                    <option value="efectivo">Efectivo</option>
+                </select>
             </div>
             <div>
                 <label for="coment">Comentario</label>
-                <textarea cols="10" rows="3" id="coment" name="coment" placeholder="Escribe tu comentario"></textarea>
+                <textarea cols="25" rows="5" id="coment" name="coment" placeholder="Escribe tu comentario"></textarea>
             </div>
             <div>
-                <input type="submit" value="Enviar Comentario"/>
+                <input type="submit" value="Enviar"/>
                 <input type="reset" value="Eliminar"/>
             </div>
         </fieldset>

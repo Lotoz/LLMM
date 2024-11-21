@@ -26,3 +26,37 @@ h2{
     margin: auto;
     font-size: small;
 }
+.bloque1 {
+    display: block;
+    clear: none;
+    margin: 5px;
+}
+.bloque1 label {
+    display: inline;
+    float: left;
+    padding: 2px;
+}
+.bloque1 input{
+    display: inline;
+    
+}
+.lineas {
+    display: block;
+}
+.bloque2 div {
+    display: inline-block;
+    float: left;
+}
+.bloque2 label {
+    display: block;
+}
+.bloque2 input{
+    display: list-item;
+}
+.bloque3 label {
+    display: block;
+    clear: both;
+}
+.bloque3 textarea{
+   
+}

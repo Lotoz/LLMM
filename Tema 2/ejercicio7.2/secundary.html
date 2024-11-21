@@ -13,45 +13,51 @@
     <form>
         <fieldset>
             <h1>Pedido de Pizza -</h1>
-            <div>
+            <div class="bloque1">
                 <label for="nombre">Nombre</label>
                 <input type="text" id="nombre" name="nombre"/>
             </div>
-            <div>
+            <div class="bloque1">
                 <label for="direccion">Dirección</label>
                 <input type="text" id="direccion" name="direccion"/>
             </div>
-            <div>
+            <div class="bloque1">
                 <label for="edad">Edad</label>
                 <input type="number" id="edad" name="edad" min="0"/>
-            </div>
-            <div>
-                <label for="ingredientes">Ingredientes</label>
-                <input type="checkbox" id="ingredientes" name="ingredientes" value="queso">Queso</input>
-                <input type="checkbox" id="ingredientes" name="ingredientes" value="pimiento">Pimiento</input>
-                <input type="checkbox" id="ingredientes" name="ingredientes" value="cebolla">Cebolla</input>
-            </div>
-            <div>
-                <label for="tamagno">Tamaño</label>
-                <input type="radio" id="tamagno" name="tamagno" value="pquegna">Pequeña</input>
-                <input type="radio" id="tamagno" name="tamagno" value="madiana">Mediana</input>
-                <input type="radio" id="tamagno" name="tamagno" value="grande">Grande</input>
-            </div>
-            <div>
-                <label for="pago">Tarjeta</label>
-                <select id="pago" name="pago">
+             </div>
+            <div class="lineas">
+            <div class="bloque2">
+                <div>
+                    <label for="ingredientes">Ingredientes</label>
+                    <input type="checkbox" id="ingredientes" name="ingredientes" value="queso">Queso</input>
+                    <input type="checkbox" id="ingredientes" name="ingredientes" value="pimiento">Pimiento</input>
+                    <input type="checkbox" id="ingredientes" name="ingredientes" value="cebolla">Cebolla</input>
+                </div>
+                <div>
+                    <label for="tamagno">Tamaño</label>
+                    <input type="radio" id="tamagno" name="tamagno" value="pquegna">Pequeña</input>
+                    <input type="radio" id="tamagno" name="tamagno" value="madiana">Mediana</input>
+                    <input type="radio" id="tamagno" name="tamagno" value="grande">Grande</input>
+                </div>
+                <div>
+                    <label for="pago">Tarjeta</label>
+                    <select id="pago" name="pago">
                         <option>Visa</option>
                         <option>MasterCard</option>
                         <option>Efectico</option>
-                </select>
+                    </select>
+                </div>
             </div>
-            <div>
-                <label for="comentario">Instrucciones especiales</label>
+        </div>
+            <div class="bloque3">
+                <div>
+                    <label for="comentario">Instrucciones especiales</label>
                     <textarea id="comentario" name="comentario"></textarea>
-            </div>
-            <div>
-                <input type="submit" value="Enviar"/>
-                <input value="Borrar" type="reset"/>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar"/>
+                    <input value="Borrar" type="reset"/>
+                </div>
             </div>
         </fieldset>
     </form>
