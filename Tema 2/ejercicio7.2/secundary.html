@@ -10,54 +10,64 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <form>
+    <form >
         <fieldset>
-            <h1>Pedido de Pizza -</h1>
+            <h1>- Pedido de Pizza -</h1>
             <div class="bloque1">
                 <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre"/>
+                <input type="text" id="nombre" name="nombre" placeholder="Pon tu nombre"/>
             </div>
             <div class="bloque1">
                 <label for="direccion">Dirección</label>
-                <input type="text" id="direccion" name="direccion"/>
+                <input type="text" id="direccion" name="direccion" placeholder="Pon tu dirección"/>
             </div>
-            <div class="bloque1">
-                <label for="edad">Edad</label>
-                <input type="number" id="edad" name="edad" min="0"/>
-             </div>
-            <div class="lineas">
             <div class="bloque2">
-                <div>
-                    <label for="ingredientes">Ingredientes</label>
-                    <input type="checkbox" id="ingredientes" name="ingredientes" value="queso">Queso</input>
-                    <input type="checkbox" id="ingredientes" name="ingredientes" value="pimiento">Pimiento</input>
-                    <input type="checkbox" id="ingredientes" name="ingredientes" value="cebolla">Cebolla</input>
+                <div class="opciones">
+                    <label class="p">Ingredientes</label>
+                    <div>
+                        <input type="checkbox" id="ingredientes" name="ingredientes" value="queso"/>
+                        <label for="ingredientes">Queso</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ingredientes2" name="ingredientes2" value="pimiento"/>
+                        <label for="ingredientes2">Pimiento</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ingredientes3" name="ingredientes3" value="cebolla"/>
+                        <label for="ingredientes3">Cebolla</label>
+                    </div>
                 </div>
-                <div>
-                    <label for="tamagno">Tamaño</label>
-                    <input type="radio" id="tamagno" name="tamagno" value="pquegna">Pequeña</input>
-                    <input type="radio" id="tamagno" name="tamagno" value="madiana">Mediana</input>
-                    <input type="radio" id="tamagno" name="tamagno" value="grande">Grande</input>
+                <div class="opciones">
+                    <label class="p">Sizes</label>
+                    <div>
+                        <input type="radio" id="size" name="size" value="small"/>
+                        <label for="sizess1">Pequeña</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="size2" name="size" value="medium"/>
+                        <label for="sizzes2">Mediana</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="size3" name="size" value="big"/>
+                        <label for="sizzes3">Grande</label>
+                    </div>
                 </div>
-                <div>
-                    <label for="pago">Tarjeta</label>
-                    <select id="pago" name="pago">
-                        <option>Visa</option>
-                        <option>MasterCard</option>
-                        <option>Efectico</option>
-                    </select>
+                <div class="linea">
+                    <label class="p">Formas de pago</label>
+                        <select class="pago"id="pago" name="pago">
+                            <option>Visa</option>
+                            <option>MasterCard</option>
+                            <option>Efectivo</option>
+                        </select>
                 </div>
             </div>
-        </div>
             <div class="bloque3">
-                <div>
-                    <label for="comentario">Instrucciones especiales</label>
-                    <textarea id="comentario" name="comentario"></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="Enviar"/>
-                    <input value="Borrar" type="reset"/>
-                </div>
+                <label for="comentario">Instrucciones especiales</label>
+                <textarea id="comentario" name="comentario" cols="40" rows="5"></textarea>
+            </div>
+            <div class="botones">
+                <input type="submit" value="Enviar"/>
+                <input value="Borrar" type="reset"/>
             </div>
         </fieldset>
     </form>
