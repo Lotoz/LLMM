@@ -43,20 +43,20 @@ div.bloque1 label{
 div.bloque1 input{
     width: 80%;
 }
+/*Reparar el hecho de que el color del titulo no ocupa todo
+Ver que cuando se pone un width pago va para abajo, probar si eso rehacer el codigo.*/
 .p{
     background-color: maroon;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     color: white;
     font-style: bold;
-    padding: 2px 30px 2px 50px;
-
+    padding: 2px 25px 2px 35px;
+    width: auto;
 }
 .opciones{
-    display: inline;
-    clear: none;
-    width: 30%;
     float: left;
+    width: 30%;
     padding: 5px;
     font-size:15px;
 }
