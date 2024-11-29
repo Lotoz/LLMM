@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contacto</title>
+    <meta name ="author" content="Lotoz"/>
+    <meta name="keywords" content="Contacto, Datos personales"/>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='./assets/css/contacto.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <nav>
+        <h1>Formulario.</h1>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destino1.html" >Argentina</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+    </nav>
+    <div>
+        <form id="formulario1" name="formulario1" method="post" action="http://testform.montysoft.org">
+            <h2>Formulario</h2>
+            <div>
+                <label for="email">Correo electronico:</label>
+                <input type="email" id="email" name="email"placeholder="Introduce tu email"/>
+            </div>
+            <div>
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Introduce tu contraseña"/>
+            </div>
+            <div>
+                <label for="nombre" >Nombre</label>
+                <input type="text" id="nombre" name="nombre"/>
+            </div>
+            <div>
+                <label for="color"> Tu color preferido:</label>
+                <input type="color" id="color" name="color"/>
+            </div>
+            <div>
+                <label for="web">Web</label>
+                <input type="url" id="web" name="Web"/>
+            </div>
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" name="telefono"/>
+            </div>
+            <div>
+                <label for="birthday">Fecha de nacimiento</label>
+                <input type="date" id="birthday" name="birthday"/>
+            </div>
+            <div>
+                <label for="Trasnporte">Trasnporte</label>
+                <input id="Trasnporte1" name="trans" value="Coche" type="checkbox"/>
+                <label for="Trasnporte1" >Coche</label>
+                <input id="Trasnporte2" name="trans" value="Barco" type="checkbox"/>
+                <label for="Trasnporte2">Barco</label>
+                <input id="Trasnporte2" name="trans" value="Barco" type="checkbox"checked/>
+                <label for="Trasnporte2">Tren</label>
+                <input id="Trasnporte3" name="trans" value="Avion" type="checkbox"/>
+                <label for="Trasnporte3">Avión</label>
+            </div>
+            <div>
+                <label for="guia">Opcion a guia:</label>
+                <input id="guia1" name="pago" value="Visa" type="radio" checked/>
+                <label for="guia1">Si</label>
+                <input id="guia2" name="pago" value="Mastercard" type="radio"/>
+                <label for="guia2">No</label>
+            </div>
+            <div class="opciones">
+                <label class="p">Formas de pago</label>
+                    <select class="pago"id="pago" name="pago">
+                        <option>Visa</option>
+                        <option>MasterCard</option>
+                        <option>Efectivo</option>
+                    </select>
+            </div>
+            <div>  
+                <input type="submit" value="Darme de alta"/>
+                <input type="reset" value="Borrar!"/>
+            </div> 
+        </form>
+    </div>
+</body>
+</html>

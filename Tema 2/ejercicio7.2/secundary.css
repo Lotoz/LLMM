@@ -45,7 +45,7 @@ div.bloque1 input{
 }
 /*Reparar el hecho de que el color del titulo no ocupa todo
 Ver que cuando se pone un width pago va para abajo, probar si eso rehacer el codigo.*/
-.p{
+/*.p{
     background-color: maroon;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
@@ -53,6 +53,15 @@ Ver que cuando se pone un width pago va para abajo, probar si eso rehacer el cod
     font-style: bold;
     padding: 2px 25px 2px 35px;
     width: auto;
+}*/
+.p{
+    display:block;
+    clear: both;
+    text-align: center;
+    background-color: #993300;
+    padding: 2px 5px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #ffffff;
 }
 .opciones{
     float: left;
