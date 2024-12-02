@@ -3,13 +3,13 @@ h1{
     font-size: 36px;
     font-weight: bolder;
     color: white;
-    background-color: black;
+    background-color: gray;
     text-align: center;
     border-bottom: solid 2px;
     border-color: white;
 }
 nav{
-    background-color: black;
+    background-color: gray;
 }
 nav ul{
     list-style: none;
@@ -36,28 +36,36 @@ a:visited{
 }
 a:hover{
     color: white;
-    text-decoration: overline;
+    text-decoration: underline;
+    font-weight: bold;
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: aquamarine;
-}
-.edit1 {
-    display: inline;
-    float: right;
 }
 div.lista {
-    border: solid 2px;
-    color: blueviolet;
+    border: dotted 2px;
+    color: whitesmoke;
+    width: 20%;
+    background-color: grey;
+}
+caption {
+    border-top: dotted 2px;
+    border-left: dotted 2px;
+    border-right: dotted 2px; 
+}
+.tabla {
+    border-bottom: dotted 2px;
+    border-left: dotted 2px;
+    border-right: dotted 2px;
+    border-color: black;
+    background-color: white;
+    width: 800px;
 }
 .tabla, td, th {
-    padding: 5px 10px 5px 10px;
     font-size: 20px;
-    border: dotted 2px;
-    border-color: black;
 }
 .fila td, th {
     background-color: white;
@@ -66,6 +74,9 @@ div.lista {
 .primer {
     background-color: green;
 }
-.dorado th {
+.primer th{
+    background-color: green;
+}
+.gris {
     background-color: grey;
 }

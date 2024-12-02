@@ -36,7 +36,8 @@ a:visited{
 }
 a:hover{
     color: white;
-    text-decoration: overline;
+    text-decoration: underline;
+    font-weight: bold;
 }
 body {
     background-color: lightgoldenrodyellow;
@@ -56,6 +57,15 @@ p {
 .abajo {
     display: block;
     float: inline-end;
+}
+.subrayada {
+    text-decoration: underline;
+}
+.cursiva {
+    font-style: italic;
+}
+.negrita {
+    font-weight: bolder;
 }
 .colorLetras1{
     color: blueviolet;

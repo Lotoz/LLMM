@@ -3,17 +3,17 @@ h1{
     font-size: 36px;
     font-weight: bolder;
     color: white;
-    background-color: black;
+    background-color: gray;
     text-align: center;
     border-bottom: solid 2px;
     border-color: white;
 }
 nav{
-    background-color: black;
+    background-color: gray;
 }
 nav ul{
     list-style: none;
-    margin: 0 0px 0 10px;
+    margin: 0 10px 0 10px;
     text-align: right;
 }
 nav ul li{
@@ -27,30 +27,61 @@ a{
 a:link{
     text-decoration: none;
     color: white;
-
+    padding: 10px;
 }
 a:visited{
     text-decoration: none;
     color: white;
+    padding: 10px;
 }
 a:hover{
     color: white;
-    text-decoration: overline;
-}
+    text-decoration: underline;
+    font-weight: bold;
+}  
 h2 {
     text-align: center;
-    border-bottom: 2px;
+    border-bottom: solid thin;
     border-color: black;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 form{
-    background-color:  #ffcc99;
+    background-color:  lightgray;
     margin: auto;
     width: 800px;
+    border: solid thin;
+    border-color: black;
 }
 div{
     padding: 10px 0 10px 0;
 }
-label{
+.bloque label{
     display: inline-block;
-    width: 10%;
+    width: 17%;
+    font-weight: bolder;
+}
+.bloque input {
+    border: solid thin;
+    border-color: red;
+}
+.opcionbox {
+    font-weight: bolder;
+    padding-right: 56px;
+}
+.opciones {
+    display: inline-block;
+    border: solid thin;
+    border-color: gray;
+}
+.opciones label {
+    padding-inline: 2px;
+    font-weight: bolder;
+}
+.botones input {
+    background-color: black;
+    color: white;
+    width: 20%;
+    margin: 0px 100px 0 100px;
 }
