@@ -27,12 +27,12 @@
 	grid-column: 2 / 2;
 	grid-row: 2 / 4;
 	border: solid black;
-	background-color: goldenrod;
+	background-color: rgb(236, 138, 1);
 }
 .cajaCian{
 	grid-column: 1 / 2;
 	border: solid black;
-	background-color: cyan;
+	background-color: rgb(0, 222, 222);
 }
 .cajaVerde{
 	grid-column: 2 / 2;

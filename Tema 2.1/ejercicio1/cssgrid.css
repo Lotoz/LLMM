@@ -1,0 +1,53 @@
+body {
+  margin: auto;
+  background:rgba(241, 239, 239, 0.645)}
+
+#container {
+    display: grid;
+    /* Grid de 2x3 */
+    /* 2 columnas: 1ª de 200px, 2ª ocupa el espacio restante */
+    grid-template-columns: 200px  1fr;
+    /* grid-rows: 3 filas ancho automático */
+    grid-template-rows: auto  auto  auto;
+    grid-template-areas: "header  header"
+                       "menu  cuerpo"
+                       "pie  pie";
+    /*Espaciado*/
+    column-gap: 20px;
+    row-gap: 10px;
+    /*gap: 10px 20px*/ /*se pueden sustituir por esta linea */
+    margin:20px;}
+  
+header { 	
+      grid-area:header;
+      color: white; 
+      background-color: #0D47A1; 
+      padding: 5px; }
+ 
+footer { 
+    grid-area:pie;
+    background-color: #2196F3; 
+    padding: 5px;}
+  
+section { 	
+    grid-area:cuerpo;
+    background-color: #BBDEFB; 
+    padding: 5px;}
+  
+nav{
+      grid-area:menu;
+      background-color:#FFFFFF;
+      padding: 5px;}
+  
+nav h2{color:red}
+header h2 {color:yellow}
+footer h2{color:white}
+  
+/* Web responsive */
+/*Cuando el tamaño de pantalla sea menor de 400px (o como máximo 400px) le quitamos
+   la propiedad display: grid a la clase container que lo engloba todo, por display: block.*/
+@media (max-width: 600px) {
+    .container {
+      display: block;}
+}
+  
