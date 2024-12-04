@@ -6,55 +6,42 @@
 	text-align: center;
 	gap: 15px;
 	color: white;
-    grid-template-areas: 
-        "negro negro"
-        "cian lima"
-        "azul amarillo"
-        "verde amarillo"
-        "rojo rojo";
 }
 .cajaRoja{
 	grid-column-start: 1;
 	grid-column-end: 3;
 	border: solid black;
 	background-color: red;
-    grid-area: rojo;
 }
 .cajaOliva{
 	grid-column: 1 / 2;
 	border: solid black;
 	background-color: green;
-    grid-area: verde;
 }
 .cajaAzul{
 	grid-column: 1 / 2;
 	border: solid black;
 	background-color: blue;
-    grid-area: azul;
 }
 .cajaAmarillo{
 	grid-column: 2 / 2;
 	grid-row: 2 / 4;
 	border: solid black;
-	background-color: rgb(236, 138, 1);;
-    grid-area: amarillo;
+	background-color: goldenrod;
 }
 .cajaCian{
 	grid-column: 1 / 2;
 	border: solid black;
-	background-color: rgb(0, 222, 222);
-    grid-area: cian;
+	background-color: cyan;
 }
 .cajaVerde{
 	grid-column: 2 / 2;
 	border: solid black;
 	background-color: greenyellow;
-    grid-area: lima;
 }
 .cajaNegro{
 	grid-column-start: 1;
 	grid-column-end: 3;
 	border: solid black;
 	background-color: black;
-    grid-area: negro;
 }
