@@ -6,9 +6,9 @@ body {
     display: grid;
     /* Grid de 2x3 */
     /* 2 columnas: 1ª de 200px, 2ª ocupa el espacio restante */
-    grid-template-columns: 200px  1fr;
+    grid-template-columns: 200px 3fr;
     /* grid-rows: 3 filas ancho automático */
-    grid-template-rows: auto  auto  auto;
+    grid-template-rows: auto;
     grid-template-areas: "header  header"
                        "menu  cuerpo"
                        "pie  pie";
@@ -16,7 +16,8 @@ body {
     column-gap: 20px;
     row-gap: 10px;
     /*gap: 10px 20px*/ /*se pueden sustituir por esta linea */
-    margin:20px;}
+    margin:20px;
+}
   
 header { 	
       grid-area:header;
@@ -29,17 +30,41 @@ footer {
     background-color: #2196F3; 
     padding: 5px;}
   
-section { 	
+.a1{ 	
     grid-area:cuerpo;
     background-color: #BBDEFB; 
-    padding: 5px;}
+    padding: 5px;
+}
+.a2 { 	
+    grid-area:cuerpo;
+    background-color: #BBDEFB; 
+    padding: 5px;
+}
+.a3 { 	
+    grid-area:cuerpo;
+    background-color: #BBDEFB; 
+    padding: 5px;
+}
+.a4{ 	
+    grid-area:cuerpo;
+    background-color: #BBDEFB; 
+    padding: 5px;
+}
+
   
 nav{
+      display: grid;
       grid-area:menu;
       background-color:#FFFFFF;
-      padding: 5px;}
+      padding: 5px;
+      grid-row: 4fr;
+
+    }
+nav ul {
+    list-style: none;
+    grid-area: menu;
+}
   
-nav h2{color:red}
 header h2 {color:yellow}
 footer h2{color:white}
   
