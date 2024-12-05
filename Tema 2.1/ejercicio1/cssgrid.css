@@ -12,16 +12,16 @@ header {
     grid-column: span 2;
     color: white; 
     background-color: #0D47A1; 
-    padding: 5px; 
+    padding: 3px; 
 }
 footer { 
     grid-column: span 2;
     background-color: #2196F3; 
-    padding: 5px;
+    padding: 3px;
 }
 article { 	
     background-color: #BBDEFB; 
-    padding: 5px;
+    padding: 3px;
 }
 #a1{
     grid-row: span 2;
@@ -29,11 +29,12 @@ article {
 nav{
     grid-column: span 2;
     background-color:#FFFFFF;
-    padding: 5px;
+    padding: 3px;
 }
-li{
-    display: inline;  
-    margin: 10px; 
+ul li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
 }
 nav h2{color:red}
 header h2 {color:yellow}
