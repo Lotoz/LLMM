@@ -1,0 +1,50 @@
+body {
+    margin: auto;
+    background:rgba(241, 239, 239, 0.645)
+}
+#container {
+    display: grid;
+    grid-template: 200px 1fr / repeat(3 1fr);
+    gap: 5px 5px;
+    margin:10px;
+}
+header { 	
+    grid-column: span 2;
+    color: white; 
+    background-color: #0D47A1; 
+    padding: 3px; 
+}
+footer { 
+    grid-column: span 2;
+    background-color: #2196F3; 
+    padding: 3px;
+}
+article { 	
+    background-color: #BBDEFB; 
+    padding: 3px;
+}
+#a1{
+    grid-row: span 2;
+}
+nav{
+    grid-column: span 2;
+    background-color:#FFFFFF;
+    padding: 3px;
+}
+ul li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+nav h2{color:red}
+header h2 {color:yellow}
+footer h2{color:white}
+    
+/* Web responsive */
+/*Cuando el tamaño de pantalla sea menor de 400px (o como máximo 400px) le quitamos
+la propiedad display: grid a la clase container que lo engloba todo, por display: block.*/
+@media (max-width: 600px) {
+    .container {
+    display: block;}
+}
+    
