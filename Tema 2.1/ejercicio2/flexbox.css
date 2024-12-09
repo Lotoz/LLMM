@@ -1,0 +1,75 @@
+#container {
+    display: grid;
+    grid-template: repeat(3 1fr) 50px/100px 50px 1fr 1fr 100px;
+    grid-template-areas:
+        "header header header header"
+        "nav nav nav nav"
+        "section section section aside"
+        "section section section aside"
+        "footer footer footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    grid-area: nav;
+    background-color: rgb(155, 240, 243);
+}
+
+nav li {
+    display: inline;
+    margin: 5px;
+}
+/*Flex se debe usar principalmente para manejar partes pequenas de la pagina,
+mientras que grid se usa para la estructura general de la pagina.*/
+#flexcontainer {
+    background-color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    flex-direction: column;
+    align-content:space-around;
+}
+.cajita {
+    border: 1px solid black;
+    background-color: grey;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+#caja1 {
+   order: 4;
+}
+#caja2 {
+    order: 2;
+}
+#caja3 {
+    order: 3;
+}
+#caja4 {
+    order: 1;
+}
+#caja5 {
+    order: 5;
+}
+aside {
+    grid-area: aside;
+    background-color: orange;
+    color: white;
+    text-align: center;
+
+}
+
+footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

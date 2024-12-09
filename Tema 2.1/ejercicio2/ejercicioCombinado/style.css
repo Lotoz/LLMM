@@ -1,0 +1,97 @@
+#container {
+    display: grid;
+    grid-template: 1fr 40px/1fr 300px;
+    grid-template-areas:
+        "header header"
+        "nav aside"
+        "section aside"
+        "section aside"
+        "section aside"
+        "footer footer";
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+
+}
+
+h1 {
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #138808;
+}
+
+nav li {
+    display: inline;
+    background-color: #4CBB17;
+    color: yellow;
+    margin: 5px;
+}
+
+#cajaPortada {
+    grid-area: section;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-color: #D2FFAB;
+}
+#cajaPortada h2 {
+    text-align: center;
+    color: darkolivegreen;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#cajaPortada article {
+    padding-left: 50px;
+    text-align: justify;
+}
+#cajaPortada h3 {
+    color: purple;
+    font-weight: bolder;
+}
+#cajaPortada p {
+    border: 5px solid lightskyblue;
+    background-color: white;
+    color: black;
+    margin: auto;
+    width:80%;
+    padding: 20px;
+    float: left;
+}
+/*Terminar de retocar con Flex, se necesita una little nivelacion.*/
+#cajaAnuncio {
+    display: flex;
+    grid-area: aside;
+    background-color: pink;
+    padding: 0 20px 0 20px;
+    flex-flow: wrap;
+}
+#cajaPublicidad {
+    border: solid blue;
+    margin: 50% auto;
+    background-color: white;
+    padding: 0 20px 0 20px;
+}
+#cajaPublicidad h3{
+    text-align: left;
+    font-size: 15px;
+}
+#cajaAnunciar {
+    align-content: right;
+    
+}
+footer {
+    grid-area: footer;
+    background-color: aquamarine;
+    color: blue;
+    text-align: center;
+}
+footer h2 {
+    font-size: 12px;
+}
