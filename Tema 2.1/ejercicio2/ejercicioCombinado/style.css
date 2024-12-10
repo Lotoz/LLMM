@@ -64,13 +64,11 @@ nav li {
     padding: 20px;
     float: left;
 }
-/*Terminar de retocar con Flex, se necesita una little nivelacion.*/
 #cajaAnuncio {
-    display: flex;
     grid-area: aside;
     background-color: pink;
     padding: 0 20px 0 20px;
-    flex-flow: wrap;
+
 }
 #cajaPublicidad {
     border: solid blue;
@@ -79,12 +77,10 @@ nav li {
     padding: 0 20px 0 20px;
 }
 #cajaPublicidad h3{
-    text-align: left;
     font-size: 15px;
 }
-#cajaAnunciar {
-    align-content: right;
-    
+#cajaAnunciar h2 {
+    padding-left: 20px;
 }
 footer {
     grid-area: footer;
