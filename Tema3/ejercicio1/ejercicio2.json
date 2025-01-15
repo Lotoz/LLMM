@@ -1,0 +1,18 @@
+{"Numero de estudiantes": {
+    "Primaria" : 122,
+    "Secundaria": 122 ,
+    "Formacion Profesional": {
+        "FPB": 34,
+        "CFGM" : 32,
+        "CFGS": 46
+    },
+    "Bachillerato" : 45
+},
+"Nombre del colegio" : "Paolis",
+ "Ciudad" : {
+    "Nombre" : "Malaga",
+    "Provincia" : "Malaga",
+    "Codigo Postal" : 23455,
+    "Distancia" : 2332442
+ }
+}
