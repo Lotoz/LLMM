@@ -1,4 +1,7 @@
-{"Numero de estudiantes": {
+{
+    "Nombre del colegio" : "IESBELEN",
+    
+    "Numero de estudiantes": {
     "Primaria" : 122,
     "Secundaria": 122 ,
     "Formacion Profesional": {
@@ -8,10 +11,10 @@
     },
     "Bachillerato" : 45
 },
-"Nombre del colegio" : "Paolis",
+
  "Ciudad" : {
-    "Nombre" : "Malaga",
-    "Provincia" : "Malaga",
+    "Nombre" : "Málaga",
+    "Provincia" : "Málaga",
     "Codigo Postal" : 23455,
     "Distancia" : 2332442
  }

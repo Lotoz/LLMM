@@ -1,0 +1,77 @@
+{
+    "Estudiantes": 
+    [
+        {
+            "Titulacion" : "GS FP",
+            "Nombre" : {
+                "Apellidos" : "Garro",
+                "Nombre" : "Angel"
+            },
+            "email" : "gra23@gmail.com",
+            "Repite" : true,
+            "Amigos" : [
+                "Jose",
+                "Pato",
+                "Emanuel"
+            ],
+            "Asignaturas" : [
+                {
+                    "Nombre" : "Matematicas",
+                    "Nota" : 9
+                },
+                {
+                    "Nombre" : "Lengua",
+                    "Nota" : 8
+                }
+            ]
+        },
+        {
+            "Titulacion" : "GS FP",
+            "Nombre" : {
+                "Apellidos" : "Garro",
+                "Nombre" : "Angel"
+            },
+            "email" : "gra23@gmail.com",
+            "Repite" : true,
+            "Amigos" : [
+                "Jose",
+                "Pato",
+                "Emanuel"
+            ],
+            "Asignaturas" : [
+                {
+                    "Nombre" : "Matematicas",
+                    "Nota" : 9
+                },
+                {
+                    "Nombre" : "Lengua",
+                    "Nota" : 8
+                }
+            ]
+        },
+        {
+            "Titulacion" : "GS FP",
+            "Nombre" : {
+                "Apellidos" : "Garro",
+                "Nombre" : "Angel"
+            },
+            "email" : "gra23@gmail.com",
+            "Repite" : true,
+            "Amigos" : [
+                "Jose",
+                "Pato",
+                "Emanuel"
+            ],
+            "Asignaturas" : [
+                {
+                    "Nombre" : "Matematicas",
+                    "Nota" : 9
+                },
+                {
+                    "Nombre" : "Lengua",
+                    "Nota" : 8
+                }
+            ]
+        }
+    ]
+}

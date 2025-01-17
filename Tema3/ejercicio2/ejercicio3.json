@@ -1,0 +1,47 @@
+{
+    "nombre" : "Justin",
+    "apellido": "Fernando",
+    "Datos de contacto" : {
+        "correo electronico" : "justinfernando@gmail.com",
+        "telefono" : 635214201
+    },
+    "Ciudad de origen" : "Málaga",
+    "Acompañantes" : [
+        "Jose",
+        "Claudia",
+        "Nino"
+    ],
+    "Gasto del viaje" : 3600,
+    "Destinos" : [
+        {
+            "Satisfecho" : true,
+            "Ciudad" : "Murcia",
+            "Hotel" : {
+                "Nombre": "Stars",
+                "Estrellas" : 3,
+                 "Precio por noche": 35,
+                 "Número de noches": 5
+                }
+        },
+        {
+            "Satisfecho" : false,
+            "Ciudad" : "Paris",
+            "Hotel" : {
+                "Nombre": "Lunas",
+               "Estrellas" : 4,
+                "Precio por noche": 55,
+                "Número de noches": 3
+            }
+        },
+        {
+            "Satisfecho" : true,
+            "Ciudad" : "Zurich",
+            "Hotel" : {
+                "Nombre": "Pain",
+                "Estrellas" : 5,
+                 "Precio por noche": 75,
+                 "Número de noches": 2
+                }
+        }
+    ]
+}
