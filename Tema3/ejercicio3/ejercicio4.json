@@ -26,41 +26,41 @@
             ]
         },
         {
-            "Titulacion" : "GS FP",
+            "Titulacion" : "Bachillerato",
             "Nombre" : {
-                "Apellidos" : "Garro",
-                "Nombre" : "Angel"
+                "Apellidos" : "Pato",
+                "Nombre" : "Nuria"
             },
-            "email" : "gra23@gmail.com",
+            "email" : "wkj23@gmail.com",
             "Repite" : true,
             "Amigos" : [
-                "Jose",
-                "Pato",
-                "Emanuel"
+                "Maximiliano",
+                "Juanjo",
+                "Tito"
             ],
             "Asignaturas" : [
                 {
                     "Nombre" : "Matematicas",
-                    "Nota" : 9
+                    "Nota" : 4
                 },
                 {
                     "Nombre" : "Lengua",
-                    "Nota" : 8
+                    "Nota" : 5
                 }
             ]
         },
         {
-            "Titulacion" : "GS FP",
+            "Titulacion" : "ESO",
             "Nombre" : {
-                "Apellidos" : "Garro",
-                "Nombre" : "Angel"
+                "Apellidos" : "Link",
+                "Nombre" : "Link"
             },
-            "email" : "gra23@gmail.com",
+            "email" : "mastersword@gmail.com",
             "Repite" : true,
             "Amigos" : [
-                "Jose",
-                "Pato",
-                "Emanuel"
+                "Zelda",
+                "Mario",
+                "Sonic"
             ],
             "Asignaturas" : [
                 {
