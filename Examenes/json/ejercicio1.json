@@ -1,53 +1,52 @@
 {
-    "Instituto" : "Tecnologico Superior",
-    "Cursos" : [
-        { 
-            "Nombre" : "Desarollo de Aplicaciones Web",
-            "Nivel" : "Grado Superior",
-            "Aulas" : [ 
+    "Instituto": "Tecnologico Superior",
+    "Cursos": [
+        {
+            "Nombre": "Desarollo de Aplicaciones Web",
+            "Nivel": "Grado Superior",
+            "Aulas": [
                 {
-            "ID" : 101,
-            "Capacidad" : 30,
-            "Equipamiento" : [ 
-                "Ordenadores",
-                "Proyector",
-                "Pizarra" 
-            ]
+                    "ID": 101,
+                    "Capacidad": 30,
+                    "Equipamiento": [
+                        "Ordenadores",
+                        "Proyector",
+                        "Pizarra"
+                    ]
                 },
                 {
-            "ID" : 102,
-            "Capacidad" : 25,
-            "Equipamiento" : [
-                "Ordenadores",
-                "Pizarra"
-            ]
+                    "ID": 102,
+                    "Capacidad": 25,
+                    "Equipamiento": [
+                        "Ordenadores",
+                        "Pizarra"
+                    ]
                 }
-            ]   
-     },
-     {
-        "Nombre" : "Redes y Sistemas",
-        "Nivel" : "Grado Superior",
-        "Aulas" : [ 
-            {
-        "ID" : 201,
-        "Capacidad" : 20,
-        "Equipamiento" : [ 
-           "Switches",
-           "Routers",
-           "Pizarra"
-        ]
-            },
-            {
-        "ID" : 202,
-        "Capacidad" : 15,
-        "Equipamiento" : [
-            "Switches",
-            "Proyector",
-            "Ordenadores"
-        ]
-            }
-        ]  
-     }
-
+            ]
+        },
+        {
+            "Nombre": "Redes y Sistemas",
+            "Nivel": "Grado Superior",
+            "Aulas": [
+                {
+                    "ID": 201,
+                    "Capacidad": 20,
+                    "Equipamiento": [
+                        "Switches",
+                        "Routers",
+                        "Pizarra"
+                    ]
+                },
+                {
+                    "ID": 202,
+                    "Capacidad": 15,
+                    "Equipamiento": [
+                        "Switches",
+                        "Proyector",
+                        "Ordenadores"
+                    ]
+                }
+            ]
+        }
     ]
 }
