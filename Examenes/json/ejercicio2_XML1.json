@@ -1,0 +1,37 @@
+{
+    "-Nombre" : "Biblioteca Central",
+    "Catalogo" : [
+        {
+            "-isbn" : "978-3-16",
+            "-genero" : "Ficcion",
+            "Autor" : [
+                {
+                "nombre" : "Juan Gomez",
+                "nacionalidad" : "Española"
+                }
+            ],
+            "Disponibilidad" : [
+                {
+                    "Copias" : 3,
+                    "Prestadas" : 1
+                }
+            ]
+        },
+        {
+            "-isbn" : "978-0-262",
+            "-genero" : "Tecnologia",
+            "Autor" : [
+                {
+                "nombre" : "Susan Mitchell",
+                "nacionalidad" : "Estadounidense"
+                }
+            ],
+            "Disponibilidad" : [
+                {
+                    "Copias" : 5,
+                    "Prestadas" : 2
+                }
+            ]
+        }
+    ]
+}
