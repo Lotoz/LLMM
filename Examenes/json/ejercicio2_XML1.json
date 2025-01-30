@@ -4,34 +4,30 @@
         {
             "-isbn" : "978-3-16",
             "-genero" : "Ficcion",
-            "Autor" : [
+            "Autor" : 
                 {
                 "nombre" : "Juan Gomez",
                 "nacionalidad" : "Española"
-                }
-            ],
-            "Disponibilidad" : [
+                },
+            "Disponibilidad" : 
                 {
                     "Copias" : 3,
                     "Prestadas" : 1
                 }
-            ]
         },
         {
             "-isbn" : "978-0-262",
             "-genero" : "Tecnologia",
-            "Autor" : [
+            "Autor" : 
                 {
                 "nombre" : "Susan Mitchell",
                 "nacionalidad" : "Estadounidense"
-                }
-            ],
-            "Disponibilidad" : [
+                },
+            "Disponibilidad" : 
                 {
                     "Copias" : 5,
                     "Prestadas" : 2
                 }
-            ]
         }
     ]
 }

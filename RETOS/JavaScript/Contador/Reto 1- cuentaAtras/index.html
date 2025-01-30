@@ -1,0 +1,39 @@
+<!doctype html5>
+<html>
+<head>
+	<meta enctype="utf-8">
+	<title>Cuenta Atras</title>
+	<script>
+		// Una letiable es un espacio para almacenar datos (por ahora simples).
+		let n = 9;
+		let m = 9;
+		// Funcion que se ejecuta al abrir la pagina y que define lo se hace cada segundo
+		function cuentaAtras() {
+			// Con setInterval definimos acciones que se realizan cada cierto tiempo.
+			// El tiempo se expresa en mil�simas de segundo.
+			// En este caso se ejecuta marchaAtras cada segundo = 1000 milisegundos.
+			setInterval(marchaAtras, 1000);
+		}
+
+		// 
+		function marchaAtras() {
+			// Esta instrucci�n ejecuta c�digo condicional.
+			// La parte del 'if' si se cumple la condici�n y 
+			// la del 'else' si no se cumple.
+			
+			if(n >= 0) n = n - 1;
+			else n = 9 ;
+			document.getElementById("cuenta2").src = n + ".png";
+			if(n < 0) m = m - 1;
+			// Cambiamos parte de la p�gina usando DOM
+			document.getElementById("cuenta").src = m + ".png";
+		}
+	</script>
+</head>
+<body onload="cuentaAtras()">
+	<div id="numeros">
+		<img src="9.png" id="cuenta">
+		<img src="9.png" id="cuenta2">
+	</div>
+</body>
+</html>
