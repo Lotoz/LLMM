@@ -12,7 +12,7 @@
 			// Con setInterval definimos acciones que se realizan cada cierto tiempo.
 			// El tiempo se expresa en mil�simas de segundo.
 			// En este caso se ejecuta marchaAtras cada segundo = 1000 milisegundos.
-			setInterval(marchaAtras, 1000);
+			setInterval(marchaAtras, 300);
 		}
 
 		// 
@@ -25,6 +25,7 @@
 			else n = 9 ;
 			document.getElementById("cuenta2").src = n + ".png";
 			if(n < 0) m = m - 1;
+			else if (m == 0 ) m = 9;
 			// Cambiamos parte de la p�gina usando DOM
 			document.getElementById("cuenta").src = m + ".png";
 		}
