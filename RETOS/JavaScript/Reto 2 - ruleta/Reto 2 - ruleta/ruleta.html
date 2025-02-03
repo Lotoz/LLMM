@@ -1,119 +1,161 @@
 <!doctype html5>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>La ruleta del aprobado</title>
-        <!-- Carga la fuente desde google.
+
+<head>
+    <meta charset="utf-8">
+    <title>La ruleta del aprobado</title>
+    <!-- Carga la fuente desde google.
              Para usar otra fuente http://www.google.com/fonts -->
-        <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
-        <link href='ruleta.css' rel='stylesheet' type='text/css'>
-        <script>
-            // Almacenamos los nombres de las imágenes en una letiable compleja.
-            // Se denomina tabla y se accede a los valores mediante el indice (empezando por 0).
-            // Por ejemplo: imagenes[0] contiene "rajoy.png"
-            let imagenes = ["rajoy.png", "leon.png", "manzana.png", "ghost.png"];
-            // Almacenamos el indice de la imagen que esta en cada recuadro.
-            let cuadro = [ 0, 0, 0, 0];
-            // Almacenamos el setInterval de cada recuadro de forma independiente.
-            let intervaloRuleta = [ null, null, null, null ];
-            // letiable donde almacenamos el numero de recuadros que están cambiando.
-            let corriendo = 0;
-            // Intervalo del cambio de sombras.
-            let intervaloSombras;
-            let posicionSombras = [[2,2], [-2,2], [-2,-2], [2,-2]];
-            let posicionActualSombra = 0;
-            
-            // Función que inicia la ruleta.
-            function ruleta() {
-                // Solo actua cuando estan los tres recuadros parados.
-                if (corriendo == 0) {
-                    // Para el efecto de las sombras.
-                    clearInterval(intervaloSombras);
-                    
-                    // Sortea la imagen con la que comienza cada recuadro.
-                        // Math.random() genera un número en el dominio [0-1)
-                        // Si lo multiplico por tres el dominio pasa a ser [0-3)
-                        // Esta operación genera decimales, para eliminarlos se usa Math.floor()
-                    for(i in cuadro)
-                        cuadro[i] = Math.floor(Math.random() * 4);
-                    
-                    // Genera los intervalos para que cada recuadro cambie de imagen cada centésima de segundo.
-                    intervaloRuleta[0] = setInterval(function() { cambiaImagen(0);}, 50);
-                    intervaloRuleta[1] = setInterval(function() { cambiaImagen(1);}, 50);
-                    intervaloRuleta[2] = setInterval(function() { cambiaImagen(2);}, 50);
-                    intervaloRuleta[3] = setInterval(function() { cambiaImagen(3);}, 50);
-                    
-                    // Al empezar están cambiando los tres recuadros.
-                    corriendo = 4;
-                }
+    <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+    <link href='ruleta.css' rel='stylesheet' type='text/css'>
+    <script>
+        // Almacenamos los nombres de las imágenes en una letiable compleja.
+        // Se denomina tabla y se accede a los valores mediante el indice (empezando por 0).
+        // Por ejemplo: imagenes[0] contiene "rajoy.png"
+        let imagenes = ["rajoy.png", "leon.png", "manzana.png", "ghost.png"];
+        // Almacenamos el indice de la imagen que esta en cada recuadro.
+        let cuadro = [0, 0, 0, 0];
+        // Almacenamos el setInterval de cada recuadro de forma independiente.
+        let intervaloRuleta = [null, null, null, null];
+        // letiable donde almacenamos el numero de recuadros que están cambiando.
+        let corriendo = 0;
+        // Intervalo del cambio de sombras.
+        let intervaloSombras;
+        let posicionSombras = [[2, 2], [-2, 2], [-2, -2], [2, -2]];
+        let posicionActualSombra = 0;
+
+        // Función que inicia la ruleta.
+        function ruleta() {
+            // Solo actua cuando estan los tres recuadros parados.
+            if (corriendo == 0) {
+                // Para el efecto de las sombras.
+                clearInterval(intervaloSombras);
+
+                // Sortea la imagen con la que comienza cada recuadro.
+                // Math.random() genera un número en el dominio [0-1)
+                // Si lo multiplico por tres el dominio pasa a ser [0-3)
+                // Esta operación genera decimales, para eliminarlos se usa Math.floor()
+                for (i in cuadro)
+                    cuadro[i] = Math.floor(Math.random() * 4);
+
+                // Genera los intervalos para que cada recuadro cambie de imagen cada centésima de segundo.
+                intervaloRuleta[0] = setInterval(function () { cambiaImagen(0); }, 50);
+                intervaloRuleta[1] = setInterval(function () { cambiaImagen(1); }, 50);
+                intervaloRuleta[2] = setInterval(function () { cambiaImagen(2); }, 50);
+                intervaloRuleta[3] = setInterval(function () { cambiaImagen(3); }, 50);
+
+                // Al empezar están cambiando los tres recuadros.
+                corriendo = 4;
             }
-            
-            // Función que cambia la imagen.
-            function cambiaImagen(x) {
-                // Si la imagen es la última paso a la primera.
-                //  Si no cambia al asiguiente imagen.
-                if(cuadro[x]>=3) cuadro[x]=0;
-                    else cuadro[x] = cuadro[x]+1;
-                
-                // Cambia la propiedad src de la imagen correspondiente en el html.
-                document.getElementById("imag"+x).src = imagenes[cuadro[x]];                
+        }
+
+        // Función que cambia la imagen.
+        function cambiaImagen(x) {
+            // Si la imagen es la última paso a la primera.
+            //  Si no cambia al asiguiente imagen.
+            if (cuadro[x] >= 3) cuadro[x] = 0;
+            else cuadro[x] = cuadro[x] + 1;
+
+            // Cambia la propiedad src de la imagen correspondiente en el html.
+            document.getElementById("imag" + x).src = imagenes[cuadro[x]];
+        }
+
+        // Función que para un recuadro de la ruleta.
+        function paraRuleta() {
+            // Solo para si hay alguna corriendo.
+            if (corriendo > 0) {
+                // Como las tablas empiezan en cero, el ultimo valor es 3.
+                // Restamos uno a los recuadros corriendo.
+                corriendo = corriendo - 1;
+                // Paramos el intervalo para que deje de cambiar la imagen del recuadro.
+                clearInterval(intervaloRuleta[corriendo]);
+
+
+                // Si hemos parado el último activamos el efecto de las sombras.
+                if (corriendo == 0)
+                    cambiaSombras();
             }
-            
-            // Función que para un recuadro de la ruleta.
-            function paraRuleta() {
-                // Solo para si hay alguna corriendo.
-                if (corriendo > 0) {
-                    // Como las tablas empiezan en cero, el ultimo valor es 3.
-                    // Restamos uno a los recuadros corriendo.
-                    for ( let i = 0; i < 2; i++ ){
+        }
+        //Metodo para parar de a 2
+        function paraRuleta2() {
+            // Solo para si hay alguna corriendo.
+            if (corriendo > 0) {
+                // Como las tablas empiezan en cero, el ultimo valor es 3.
+                // Restamos uno a los recuadros corriendo.
+                for (let i = 0; i < 2; i++) {
                     corriendo = corriendo - 1;
                     // Paramos el intervalo para que deje de cambiar la imagen del recuadro.
                     clearInterval(intervaloRuleta[corriendo]);
                     cambiaSombras();
-                    }
-                    
-                    // Si hemos parado el último activamos el efecto de las sombras.
-                    if (corriendo==0) 
-                        cambiaSombras();
                 }
+
+                // Si hemos parado el último activamos el efecto de las sombras.
+                if (corriendo == 0)
+                    cambiaSombras();
             }
-            
-            // Funcion que activa el cambio de las sombras.
-            function cambiaSombras() {
-                // Define el intervalo de cambio de las sombras.
-                intervaloSombras=setInterval(circulaSombras, 100);
-            }
-            
-            
-            // Cambia las sombras de posición.
-            function circulaSombras() {
-                // Circula entre las posiciones de la sombra.
-                if(posicionActualSombra>=3) posicionActualSombra=0;
-                    else posicionActualSombra=posicionActualSombra+1;
-                
-                // Crea el estilo que hay que aplicar a la caja.
-                // p.e.: 2px 2px 5px #FF5050
-                //       2px arriba,  2px hacia la derecha y 5px de difuminado en color #FF5050
-                let estilo = posicionSombras[posicionActualSombra][0]+"px "+posicionSombras[posicionActualSombra][1]+"px 5px #FF5050";
-                 document.getElementById("imag0").style['boxShadow']=estilo;
-                 document.getElementById("imag1").style['boxShadow']=estilo;
-                 document.getElementById("imag2").style['boxShadow']=estilo;
-                 document.getElementById("imag3").style['boxShadow']=estilo;
-            }
-        </script>
-    </head>
-    <body onload="cambiaSombras();">
-        <div class="contenedor">
-            <div class="imagenes">
-                <img id="imag2" src="rajoy.png">
-                <img id="imag3" src="ghost.png">
-                <img id="imag0" src="manzana.png">
-                <img id="imag1" src="leon.png">
-            </div>
-            <div class="botones">
-                <div class="boton" id="iniciar" onclick="ruleta();">Iniciar</div>
-                <div class="boton" id="parar" onclick="paraRuleta();">Parar</div>
-            </div>
+        }
+        // Funcion que activa el cambio de las sombras.
+        function cambiaSombras() {
+            // Define el intervalo de cambio de las sombras.
+            intervaloSombras = setInterval(circulaSombras, 100);
+        }
+
+
+        // Cambia las sombras de posición.
+        function circulaSombras() {
+            // Circula entre las posiciones de la sombra.
+            if (posicionActualSombra >= 3) posicionActualSombra = 0;
+            else posicionActualSombra = posicionActualSombra + 1;
+
+            // Crea el estilo que hay que aplicar a la caja.
+            // p.e.: 2px 2px 5px #FF5050
+            //       2px arriba,  2px hacia la derecha y 5px de difuminado en color #FF5050
+            let estilo = posicionSombras[posicionActualSombra][0] + "px " + posicionSombras[posicionActualSombra][1] + "px 5px #FF5050";
+            document.getElementById("imag0").style['boxShadow'] = estilo;
+            document.getElementById("imag1").style['boxShadow'] = estilo;
+            document.getElementById("imag2").style['boxShadow'] = estilo;
+            document.getElementById("imag3").style['boxShadow'] = estilo;
+        }
+        //Metodo para mover el color en el titulo
+        function porEncima(a) {
+            a.style.color = "gold";
+        }
+
+        function alQuitar(a) {
+            a.style.color = "red";
+        }
+        
+    </script>
+</head>
+
+<body >
+    <div>
+        <h1 onmouseover="porEncima(this)" onmouseout="alQuitar(this)">CASINO ROLL!!!</h1>
+        <h2>Juega a la ruleta.</h2>
+    </div>
+    <div class="contenedor">
+        <div class="imagenes">
+            <img id="imag3" src="ghost.png">
+            <img id="imag2" src="rajoy.png">
+            <img id="imag1" src="leon.png">
+            <img id="imag0" src="manzana.png">
         </div>
-    </body>
+        <div class="botones">
+            <div class="boton" id="iniciar" onclick="ruleta();">Iniciar</div>
+            <div class="boton" id="parar" onclick="paraRuleta();">Parar</div>
+            <div class="boton" id="parar" onclick="paraRuleta2();">Parar 2</div>
+        </div>
+    </div>
+    <div id="cuadroPuntos">
+        <h3 id="tituloPuntos">Puntos:</h3>
+        <ul id="listaPuntos">
+            <li>2 ghostface = 1 tiro mas</li>
+            <li>2 leones = 2€</li>
+            <li>3 Rajoy = 2€</li>
+            <li>4 Cualquiera = 5.000.000 pesos argentinos</li>
+        </ul>
+    </div>
+    <img src="diseno.jpeg" width="600">
+</body>
+
 </html>
