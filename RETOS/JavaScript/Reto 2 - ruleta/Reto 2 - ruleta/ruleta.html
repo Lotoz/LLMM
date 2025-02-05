@@ -94,6 +94,24 @@
                     cambiaSombras();
             }
         }
+        //Metodo para parar los 4
+        function paraTotal() {
+            // Solo para si hay alguna corriendo.
+            if (corriendo > 0) {
+                // Como las tablas empiezan en cero, el ultimo valor es 3.
+                // Restamos uno a los recuadros corriendo.
+                for (let i = 0; i < 4; i++) {
+                    corriendo = corriendo - 1;
+                    // Paramos el intervalo para que deje de cambiar la imagen del recuadro.
+                    clearInterval(intervaloRuleta[corriendo]);
+                    cambiaSombras();
+                }
+
+                // Si hemos parado el último activamos el efecto de las sombras.
+                if (corriendo == 0)
+                    cambiaSombras();
+            }
+        }
         // Funcion que activa el cambio de las sombras.
         function cambiaSombras() {
             // Define el intervalo de cambio de las sombras.
@@ -144,6 +162,7 @@
             <div class="boton" id="iniciar" onclick="ruleta();">Iniciar</div>
             <div class="boton" id="parar" onclick="paraRuleta();">Parar</div>
             <div class="boton" id="parar" onclick="paraRuleta2();">Parar 2</div>
+            <div class="boton" id="parar" onclick="paraTotal();">Parar Todo</div>
         </div>
     </div>
     <div id="cuadroPuntos">
