@@ -1,0 +1,65 @@
+.titulo{
+    text-align: center;
+    font-weight: bold;
+}
+.contenedor {
+    display: grid;
+    grid-template: repeat(3 1fr) 100px/200px 50px 1fr 1fr 100px;
+    text-align: center;
+}
+div{
+    height: 200px;
+    width: auto;
+}
+.caja1{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: lightblue;
+    padding: 3px;
+}
+.caja2{
+    display: grid;
+    grid-column: 2/3;
+    grid-row:2/3;
+    padding: 3px;
+    background-color: blue;
+}
+img{
+    margin: auto;
+}
+p{
+    margin: auto;
+}
+.caja3{
+    display: grid;
+    grid-column: 3/4;
+    grid-row:2/3;
+    padding: 3px;
+    background-color: rebeccapurple;
+}
+.caja4{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 3px;
+    background-color: antiquewhite;
+}
+button{
+    margin: auto;
+    height: 20px;
+}
+.caja5{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 3px;
+    background-color: brown;
+}
+.caja6{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    padding: 3px;
+    background-color: chocolate;
+}
