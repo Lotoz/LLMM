@@ -1,37 +1,76 @@
 //Constantes
-const title = document.querySelector('.titulo');
-const evento1 = document.querySelector('.caja1');
-const evento2 = document.querySelector('.caja2');
-const evento3 = document.querySelector('.caja3');
-const evento4 = document.querySelector('.caja4');
-const evento5 = document.querySelector('.caja5');
-const evento6 = document.querySelector('.caja6');
-
-//Evento 0 Cambiar de color el titulo
+const evento1 = document.querySelector('.verMensaje1');
+const evento2 = document.querySelector('.imagen1');
+const evento3 = document.querySelector('.imagen2');
+const evento4 = document.querySelector('.verMensaje2');
+const evento5 = document.querySelector('.boton');
+const evento6 = document.querySelector('.multiplicar');
 
 //Evento 1
-evento1.addEventListener('click', () => alert('Hello! My friend!'));
+//Al clickear muestra un mensaje
+evento1.addEventListener("click", () => alert('Hello! My friend!'));
 
 //Evento 2
-evento2.addEventListener("click", masMenor());
-function mayorMenor () {
-  const num = parseInt(prompt('Introduce un número:'))
-  const num2 = parseInt(prompt('Introduce un número:'))
+//Al clickear pide dos numeros y te dice cual es el maximo
+evento2.addEventListener("click", max);
+
+function   max() {
+ let num = parseInt(prompt('Introduce un número:'));
+ let num2 = parseInt(prompt('Introduce un número:'));
+
   if (!isNaN(num)) {
     if (!isNaN(num2)) {
-      if (num < num2) {
-        alert(num + 'Es menor que' + num2)
-      } else if (num > num2) {
-        alert(num + 'Es mayor que' + num2)
-      } else if (num == num2) {
-        alert(num + 'Son iguales' + num2)
-      }
+      alert("El número máximo es " + Math.max(num, num2));
     } else {
-      alert('Introduce un número válido.')
+      alert('Introduce un número válido.');
     }
   } else {
-    alert('Introduce un número válido.')
+    alert('Introduce un número válido.');
   }
 }
+ 
+//Evento 3
+//Al salir el mouse del cuadro te  pide dos numeros y te dice cual es par o impar
+evento3.addEventListener("mouseleave", parImpar);
 
+function parImpar() {
+  let num = parseInt(prompt('Introduce un número:'));
+  
+  if (!isNaN(num)){
+    if(num %2 == 0){
+     alert('Es par.');
+    } else{
+      alert('Es impar');
+    }
+ }
+}
 
+//Evento 4
+//Al doble click muestra un mensaje
+evento4.addEventListener("dblclick", () => alert('Hello! My Friend!'));
+
+//Evento 5
+//Al hacer click hace un contador
+evento5.addEventListener("click", clickear);
+
+let a = 0;
+function clickear() {
+  a++;
+  alert("Haz clickeado: " + a);
+}
+
+//Evento 6 
+//Al pasar el mouse por la imagen te pide dos numeros y los multiplica
+evento6.addEventListener("mouseenter", multiplicar);
+
+function multiplicar() {
+  let num = parseInt(prompt('Introduce un número:'));
+ let num2 = parseInt(prompt('Introduce un número:'));
+
+  if (!isNaN(num)) {
+    if (!isNaN(num2)) {
+      let multiplicacion = num * num2;
+      alert("el resultado es: " + multiplicacion);
+    }
+  }
+}
