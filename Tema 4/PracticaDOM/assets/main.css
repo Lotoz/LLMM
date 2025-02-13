@@ -1,0 +1,114 @@
+.titulo{
+    text-align: center;
+    font-weight: bold;
+}
+.contenedor {
+    display: grid;
+    grid-template: repeat(3 1fr) 100px/200px 50px 1fr 1fr 100px;
+    text-align: center;
+    gap:5px;
+}
+div{
+    height: 200px;
+    width: auto;
+    padding: 2px;
+    
+}
+.caja1{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: white;
+    padding: 3px;
+    border: solid black;
+    width: 90%;
+  
+}
+.caja2{
+    display: grid;
+    grid-column: 2/3;
+    grid-row:2/3;
+    padding: 3px;
+    background-color: chocolate;
+    border: solid black;
+    width: 90%;
+}
+img{
+    margin: auto;
+}
+p{
+    margin: auto;
+}
+.caja3{
+    display: grid;
+    grid-column: 3/4;
+    grid-row:2/3;
+    padding: 3px;
+    background-color: white;
+    border: solid black;
+    width: 90%;
+}
+.caja4{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 3px;
+    background-color: chocolate;
+    border: solid black;
+    width: 90%;
+    
+    
+    
+}
+button{
+    margin: auto;
+    height: 20px;
+}
+.caja5{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 3px;
+    background-color: white;
+    border: solid black;
+    width: 90%;
+}
+.caja6{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    padding: 3px;
+    background-color: chocolate;
+    border: solid black;
+    width: 90%;
+    
+}
+.caja7{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding: 3px;
+    background-color: white;
+    border: solid black;
+    width: 90%;
+}
+.caja8{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding: 3px;
+    background-color: chocolate;
+    border: solid black;
+    width: 90%;
+   
+}
+.caja9{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    padding: 3px;
+    background-color: white;
+    border: solid black;
+    width: 90%;
+   
+}
