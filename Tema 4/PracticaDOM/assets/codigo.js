@@ -35,17 +35,18 @@ evento3.addEventListener("click", verificaEdad);
 function verificaEdad() {
     const input = document.querySelector("#input");
     const num = parseInt(input.value);
+    const texto = document.querySelector(".texto");
     if (!isNaN(num)) {
         if (num >= 1 && num <= 100) {
             input.style.borderColor = "green";
-            alert("El número es válido");
+            texto.textContent = "El número es válido";
         } else {
             input.style.borderColor = "red";
-            alert("El número no es válido");
+            texto.textContent = "El número no es válido";
         }
     } else {
         input.style.borderColor = "red";
-        alert("Por favor, ingrese un número válido");
+        texto.textContent = "Por favor, ingrese un número válido";
     }
 }
 //Cambiar el estilo segun el boton
