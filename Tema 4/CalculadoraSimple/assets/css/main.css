@@ -1,0 +1,13 @@
+#formulario{
+ margin: auto;  
+ width: 300px;
+ border: solid black;
+}
+#caja{
+    margin: 20px;
+    padding-bottom: 5px;
+}
+
+#etiquetas{
+    padding: 8px;
+}
