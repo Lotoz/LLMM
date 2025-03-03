@@ -1,0 +1,8 @@
+table.tabla td,th{
+    border-collapse: collapse;
+}
+table.tabla th{
+    border-bottom: solid thin #99AABB;
+    background-color: #FFEFAD;
+    color: #AD9223;
+}
