@@ -1,8 +1,62 @@
-table.tabla td,th{
-    border-collapse: collapse;
+.encabezadoCaja{
+    background-color: rgb(248, 74, 62);
+    text-align: center;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 10px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
-table.tabla th{
-    border-bottom: solid thin #99AABB;
-    background-color: #FFEFAD;
-    color: #AD9223;
+.titulo {
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2cm;
+    text-align: center;
+}
+.inputEstetica {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+.botonEstetica {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    border-color: rgb(0, 0, 0);
+}
+.botonEstetica:hover {
+    background-image: url(pokebola.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+}
+/* Tabla decoracion */
+.tablaEstetica {
+    border-collapse: collapse;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tablaEstetica th {
+    background-color: rgb(248, 74, 62);
+    color: white;
+    padding: 10px;
+}
+.tablaEstetica td {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    font-size: 15px;
+}
+.textError{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
 }

@@ -1,41 +1,47 @@
-<!--Simula una pokedex
-Cuando no se encuentre pokemon poner que saque la imagen de NoFoundError.
-Probar si se puede agregar a que es debil. -->
+<!--Simula una pokedex 
+Intentar hacer una con mas info y estetica de pokedex-->
 <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Practica 3</title>
+    <title>Pokedex</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./assets/style.css'>
     <script src='main.js'></script>
 </head>
 
 <body>
-    <h1>Pokedex</h1>
     <div class="contenedor">
+    <div class="encabezadoCaja">
+        <h1 class="titulo">Pokedex</h1>
+        <input type="text" name="edad" class="inputEstetica" id="inputBuscador" />
+        <button class="botonEstetica" id="boton">Buscar</button>
     </div>
-    <div class="caja7">
-        <p>pokemon/nombre</p>
-        <input type="text" name="edad" id="input" />
-        <button class="boton">Buscar</button>
-    </div>
-    <table class="tabla">
+    <table class="tablaEstetica">
         <tr>
             <th>Nombre</th>
             <th>Imagen</th>
             <th>Altura</th>
             <th>Tipos</th>
         </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+        <tr id="contendorPokemon">
+            <td>
+                <p id="nombrePokemon"></p>
+            </td>
+            <td>
+                <img id="imagenPokemon" src="" alt=" "/>
+            </td>
+            <td>
+                <p id="alturaPokemon"></p>
+            </td>
+            <td>
+                <p id="tiposPokemon"></p>
+            </td>
         </tr>
     </table>
+    <p id="text" class="textError"></p>
     </div>
     <script type="text/javascript" src="./assets/codigo.js"></script>
 </body>
