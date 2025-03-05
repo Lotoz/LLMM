@@ -1,0 +1,21 @@
+.titulo{
+    text-align: center;
+}
+.encabezadoCaja{
+    text-align: center;
+}
+table th{
+    display: flex;
+}
+table td{
+    display: flex;
+}
+.tablaEstetica{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 600px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+}

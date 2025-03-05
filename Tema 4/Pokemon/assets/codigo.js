@@ -53,6 +53,8 @@ async function buscarPokemon() {
     try {
         // Realizar una petición a la API de PokeAPI con el nombre del Pokémon
         const response = await fetch(URL + buscadoPokemon);
+        
+        //Controla si el pokemon esta dado
         if (!response.ok) {
             // Si la respuesta no es exitosa, muestra un mensaje de error
             mostrarError(`No se encontró ningún Pokémon llamado "${buscadoPokemon}"`);
