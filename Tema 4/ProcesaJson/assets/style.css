@@ -1,18 +1,24 @@
-.titulo{
+.titulo {
     text-align: center;
 }
-.encabezadoCaja{
+
+.encabezadoCaja {
     text-align: center;
 }
-table{
-    display: flexbox;
-}
-.tablaEstetica{
+
+.tablaEstetica {
     background-color: black;
     color: white;
     text-align: center;
-    width: 600px;
-    height: 150px;
+
     margin: auto;
     margin-top: 10px;
+
+}
+
+.tablaEstetica th, td {
+    padding: 5px;
+    border: solid white;
+    width: 200px;
+    height: 50px;
 }
