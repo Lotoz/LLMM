@@ -10,7 +10,6 @@ const URL = 'https://pokeapi.co/api/v2/pokemon/';
  * Constantes que contienen el buscador de pokemon y el contendor donde se mostrara la informacion
  */
 const buscarInput = document.getElementById('inputBuscador');
-const pokemonContainer = document.getElementById('contenedorPokemon');
 const namePokemon = document.getElementById('nombrePokemon');
 const imgPokemon = document.getElementById('imagenPokemon');
 const typePokemon = document.getElementById('tiposPokemon');
