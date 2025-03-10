@@ -1,0 +1,32 @@
+.titulo {
+    text-align: center;
+}
+
+.encabezadoCaja {
+    text-align: center;
+}
+
+.tablaEstetica {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.tablaEstetica th, td {
+    padding: 5px;
+    border: solid white;
+    width: 200px;
+    height: 50px;
+}
+.selectEstetica{
+    font-style: italic;
+    margin: auto;
+    font-weight: bold;
+}
+.inputEstetica{
+    border: solid black;
+}
