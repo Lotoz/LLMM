@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora Bootstrap</title>
+    <meta name="author" content="Lotoz" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  
+    <h1>Calculadora Simple</h1>
+    <div class="row w-25 border border-primary p-1 mx-auto">
+        <div class="col-12">
+            <input type="text" id="vista" class="text-end w-auto" name="numeroPedido1" required />
+        </div>
+        <div class="col-3">
+            <button class="boton btn btn-secondary m-2 w-100" id="boton" value="7">7</button>
+            <button class="boton btn btn-secondary m-2 w-100" id="boton" value="4">4</button>
+            <button class="boton btn btn-secondary m-2 w-100" id="boton" value="1">1</button>
+            <button class="boton btn btn-secondary m-2 w-100" id="boton" value="0">0</button>
+        </div>
+    <div class="col-3">
+        <button class="boton btn btn-secondary m-2 w-100" id="boton" value="8">8</button>
+        <button class="boton btn btn-secondary m-2 w-100" id="boton" value="5">5</button>
+        <button class="boton btn btn-secondary m-2 w-100" id="boton" value="2">2</button> 
+        <button class="boton btn btn-secondary m-2 w-100" id="boton" value=".">.</button>  
+    </div>
+    <div class="col-3">
+        <button class="boton btn btn-secondary m-2 w-100" id="boton" value="9">9</button>
+        <button class="boton btn btn-secondary m-2 w-100" id="boton" value="6">6</button>
+        <button class="boton btn btn-secondary m-2 w-100" id="boton"value="3">3</button>
+        <button class="boton btn btn-warning m-2 w-100" id="reset">C</button> 
+    </div>
+    <div class="col-3">
+        <button class="boton btn btn-primary m-2 w-100" id="boton" value="+">+</button>
+        <button class="boton btn btn-primary m-2 w-100" id="boton" value="-">-</button>
+        <button class="boton btn btn-primary m-2 w-100" id="boton" value="x">x</button>
+        <button class="boton btn btn-primary m-2 w-100" id="boton" value="/">/</button>
+    </div>
+    <div>
+        <button class="boton btn btn-success m-2 w-100" id="resultado">=</button>
+    </div>
+</div>
+    
+    <script type="text/javascript" src="./assets/js/codigo.js"></script>
+</body>
+
+</html>
