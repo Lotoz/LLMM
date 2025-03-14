@@ -7,7 +7,7 @@
 /**
  * Constantes a usar
  */
-const buttons = document.querySelectorAll("boton");
+const buttons = document.querySelectorAll("#boton");
 const display = document.querySelector("vista");
 const borrar = document.querySelector("reset");
 const resultado = document.querySelector("resultado");
@@ -15,7 +15,7 @@ let operandoActual;
 buttons.forEach(op => {
     buttons.addEventListener("click", () =>{
         if (op !== "") {
-            display.value = ""
+            display.value = "";
             operandoActual += buttons.value;
             display.value = operandoActual;
         } 
