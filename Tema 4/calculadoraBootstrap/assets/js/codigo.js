@@ -15,6 +15,7 @@ const RESULTADO = document.querySelector("#resultado");
 let primerOP = "";
 let segundoOP = "";
 let operacion = "";
+let resultado = 0;
 
 /**
  * Eventos para los botones de números y punto decimal
@@ -26,20 +27,20 @@ let operacion = "";
  */
 BOTONES.forEach(button => {
     button.addEventListener("click", () => {
-        const value = button.value;
-        if (!isNaN(value) || value === ".") {
+        const valor= button.value;
+        if (!isNaN(value) || valor=== ".") {
             // Si es un número o un punto decimal
             if (operacion === "") {
                 // Si no hay operación
-                primerOP += value;
+                primerOP += valor;
                 DISPLAY.value = primerOP;
             } else {
                 // Si hay operación
-                segundoOP += value;
+                segundoOP += valor;
                 DISPLAY.value = segundoOP;
             }
         // Si es una operación
-        } else if (value === "+" || value === "-" || value === "x" || value === "/") {
+        } else if (valor === "+" || valor === "-" || valor === "x" || valor === "/") {
             // Si es una operación
             if (segundoOP !== "") {
                 // Si ya hay un segundo operando
@@ -47,7 +48,7 @@ BOTONES.forEach(button => {
                 segundoOP = "";
             }
             // Asignar la operación
-            operacion = value;
+            operacion = valor;
         }
     });
 });
@@ -64,6 +65,7 @@ RESULTADO.addEventListener("click", () => {
         primerOP = DISPLAY.value;
         segundoOP = "";
         operacion = "";
+        resultado = "";
     }
 });
 
@@ -77,6 +79,7 @@ BORRAR.addEventListener("click", () => {
     segundoOP = "";
     operacion = "";
     DISPLAY.value = "";
+    resultado = "";
 });
 
 /**
@@ -87,7 +90,6 @@ function realizarOperacion() {
     // Convertir los operandos a números
     const num1 = parseFloat(primerOP);
     const num2 = parseFloat(segundoOP);
-    let resultado = 0;
 
     // Realizar la operación
     switch (operacion) {
