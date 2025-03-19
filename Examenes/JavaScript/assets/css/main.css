@@ -1,0 +1,21 @@
+.encabezadoCaja {
+    text-align: center;
+    margin: auto;
+    background-color: blue;
+}
+.titulo {
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inputEstetica {
+   margin: auto;
+   
+}
+.inputCaja {
+    margin: auto;
+    text-align: center;
+}
+.textError{
+    color: red;
+}

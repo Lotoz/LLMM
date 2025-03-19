@@ -5,3 +5,5 @@
  * url wikidot
  * autor
  */
+const serie = document.querySelector('seriesSCP');
+const objetoSCP

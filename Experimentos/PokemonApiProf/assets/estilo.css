@@ -1,0 +1,22 @@
+body{
+    width: 100%;
+    text-align: center;
+    background-color: lightskyblue;
+    margin: 10px;
+}
+h1{
+    color:red;
+}
+.buscador{
+    border: solid black thin;
+    padding: 10px;
+    width: 350px;
+    margin: auto;
+}
+table{
+    margin-top: 20px;
+    width: 100%;
+}
+th{
+    border: solid thin;
+}

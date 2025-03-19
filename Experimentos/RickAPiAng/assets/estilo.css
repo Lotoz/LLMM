@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+.container{
+    display: grid;
+    grid-template-areas: "container1 container2";
+    grid-template-columns: 1fr,1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.container1{
+    grid-area: "container1";
+    margin: auto;
+    width: 50%;
+}
+
+.container2{
+    grid-area: "container2";
+    margin: auto;
+    width: 50%;
+}
+
+#personaje{
+    width: 300px;
+}
+
+#thNombre, .nombre{
+    width: 250px;
+}
+
+.tabla1{
+    width: 1000px;
+}
+
+table{
+    margin: 20px auto auto auto;
+}
+
+th, td{
+    border: solid thin;
+}
+
+th{
+    width: 100px;
+}
+
+td{
+    width: 500px;
+    padding: 5px;
+    height: 70px;
+}
+
+.filaImagen{
+    height: 400px;
+}
+
+.containerMale{
+   color: green;
+}
+
+.containerFemale{
+    color: yellow;
+}
