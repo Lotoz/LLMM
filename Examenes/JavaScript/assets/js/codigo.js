@@ -52,8 +52,6 @@ async function buscarPalabra () {
       originBuscado.innerHTML += `<li>${element.raw}</li>`
     })
   } catch (error) {
-    palabraSalida.style.color = 'red'
-    palabraSalida.innerHTML = 'No se ha encontrado una palabra'
-    originBuscado.innerHTML = ''
+    mostrarError('No se ha encontrado una palabra valida').style.color = 'red';
   }
 }

@@ -6,4 +6,4 @@
  * autor
  */
 const serie = document.querySelector('seriesSCP');
-const objetoSCP
+const objetoSCP = document.querySelector('ObjetoSCP');
