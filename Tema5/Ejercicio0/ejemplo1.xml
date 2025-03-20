@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aviso[
+<!ELEMENT aviso (de, para, mensaje, direccion)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT mensaje (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!--<!ATTLIST mensaje tipo ID #REQUIRED>-->
+        <!--NOMBRE DE ETIQUETA TIPO OPCIONES Y DEFAULT-->
+    <!ATTLIST mensaje tipo (facebook|whatsapp|x) "facebook">
+]>
+<aviso>
+<de>David</de>
+<para>Rosalía</para>
+<mensaje tipo="facebook">Mañana nos vemos en el estudio a las 10.</mensaje>
+<direccion>Es una dirrecion</direccion>
+</aviso>
