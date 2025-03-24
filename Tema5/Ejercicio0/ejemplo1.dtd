@@ -1,0 +1,12 @@
+<!ELEMENT aviso (de, (para|cc)+, mensajes, direccion?)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT cc (#PCDATA)>
+<!-- Asteristico 0 o mas de uno
+Pero con + debe haber 1 minimo-->
+<!ELEMENT mensajes (mensaje*)>
+<!ELEMENT mensaje (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!--<!ATTLIST mensaje tipo ID #REQUIRED>-->
+ <!--NOMBRE DE ETIQUETA TIPO OPCIONES Y DEFAULT-->
+<!ATTLIST mensaje tipo (facebook|whatsapp|x) "facebook">
