@@ -16,7 +16,7 @@ _Tema 3:_ JSON
 
 _Tema 4:_ JavaScript
 
-_Tema 5:_ DTD
+_Tema 5:_ DTD y XSD (Segunda Parte de XML)
 
 _SubirNota:_ Actividades por trimestre extras para subir nota.
 
