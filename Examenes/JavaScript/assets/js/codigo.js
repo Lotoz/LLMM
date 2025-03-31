@@ -22,7 +22,7 @@ function resetearResultados () {
 //Boton para buscar
 const button = document.querySelector('#boton')
 //Input del boton
-const buscarInput = document.querySelector('#inputBuscador')
+const buscarInput = document.getElementById('inputBuscador')
 
 //Palabra buscada
 const palabraSalida = document.querySelector('#palabraBuscada')

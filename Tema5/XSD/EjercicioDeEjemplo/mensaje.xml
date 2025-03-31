@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aviso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="mensaje.xsd">
+    <de>David</de>
+    <para>Rosalia</para>
+    <mensaje>Mañana nos vemos a las 10.</mensaje>
+</aviso>

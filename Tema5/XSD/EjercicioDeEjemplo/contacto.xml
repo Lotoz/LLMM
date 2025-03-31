@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="contacto.xsd">\
+    <nombre>Juan Pérez</nombre>
+    <edad>34</edad>
+    <email>juan.perez@example.com</email>
+    <telefono>+34 4738478374</telefono>
+</contacto>
