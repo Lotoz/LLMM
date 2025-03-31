@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comunidad SYSTEM "actividad3.dtd">
+<comunidad>
+    <vecinos>
+        <cod_vecino carg="ninguno">1</cod_vecino>
+        <nombre nom="L">Laura</nombre>
+        <apellidos apel="M">Miranda</apellidos>
+        <portal port="A">Portal 21</portal>
+        <pisoyletra piso="3">D</pisoyletra>
+        <cod_cuenta_ord ccc="546">8456219756</cod_cuenta_ord>
+    </vecinos>
+    <vecinos>
+        <cod_vecino carg="ninguno">2</cod_vecino>
+        <nombre nom="J">Jose</nombre>
+        <apellidos apel="R">Romero</apellidos>
+        <portal port="B">Portal 23</portal>
+    </vecinos>
+    <vecinos>
+        <cod_vecino carg="ninguno">3</cod_vecino>
+        <nombre nom="M">Manuel</nombre>
+        <apellidos apel="M">Molina</apellidos>
+        <portal port="C">Portal 24</portal>
+        <pisoyletra piso="3">D</pisoyletra>
+        <cod_cuenta_ord ccc="894">54812165844</cod_cuenta_ord>
+    </vecinos>
+    <vecinos>
+        <cod_vecino carg="ninguno">4</cod_vecino>
+        <nombre nom="S">Susana</nombre>
+        <apellidos apel="P">Perez</apellidos>
+        <portal port="D">Portal 22</portal>
+        <pisoyletra piso="3">D</pisoyletra>
+        <cod_cuenta_ord ccc="415">416814241857</cod_cuenta_ord>
+    </vecinos>
+</comunidad>

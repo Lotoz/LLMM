@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concesionario SYSTEM "actividad2.dtd">
+<concesionario>
+    <coches>
+        <cod_coche>1</cod_coche>
+        <marca>Citroen</marca>
+        <modelo>C4</modelo>
+        <matricula>2156JHG</matricula>
+        <plazas num_puertas="3">5</plazas>
+    </coches>
+    <coches>
+        <cod_coche>2</cod_coche>
+        <marca>Audi</marca>
+        <modelo>A3</modelo>
+        <matricula>5943TFB</matricula>
+        <plazas num_puertas="3">5</plazas>
+    </coches>
+    <coches>
+        <cod_coche>3</cod_coche>
+        <marca>Volkswagen</marca>
+        <modelo>Polo</modelo>
+        <matricula>9562CTH</matricula>
+        <plazas num_puertas="3">5</plazas>
+    </coches>
+    <coches>
+        <cod_coche>4</cod_coche>
+        <marca>Seat</marca>
+        <modelo>Seat Leon</modelo>
+        <matricula>1678KMG</matricula>
+        <plazas num_puertas="3">5</plazas>
+    </coches>
+    <coches>
+        <cod_coche>5</cod_coche>
+        <marca>Renault</marca>
+        <modelo>2001</modelo>
+        <matricula>6315RND</matricula>
+        <plazas num_puertas="5">7</plazas>
+    </coches>
+</concesionario>

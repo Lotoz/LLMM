@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "actividad1.dtd">
+<biblioteca>
+    <libros>
+        <cod_libro cod="1">123</cod_libro>
+        <titulo>Lenguaje de Marcas</titulo>
+        <editorial editor="Javier Zurdo">Ra-Ma</editorial>
+        <edicion anio="2008">1</edicion>
+        <isbn>9876543212</isbn>
+        <num_pag>450</num_pag>
+        <autor>Pablo Rabasco</autor>
+    </libros>
+    <libros>
+        <cod_libro cod="2">456</cod_libro>
+        <titulo>Programación</titulo>
+        <editorial editor="Juan Carlos Moreno">Ra-Ma</editorial>
+        <edicion anio="2009">2</edicion>
+        <isbn>987321654</isbn>
+        <num_pag>450</num_pag>
+        <autor>Laura Raya</autor>
+    </libros>
+</biblioteca>

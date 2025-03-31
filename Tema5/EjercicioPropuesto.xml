@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE especie SYSTEM "ejercicioPropuesto.dtd">
+<especie estado="amenazado">
+    <nombre nombre-cientifico="Ambystoma mexicanum">Ajolote</nombre>
+    <familia>Ambystomatidae</familia>
+    <distribucion>
+        <zona>Canales de Xochimilco</zona>
+    </distribucion>
+</especie>

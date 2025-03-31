@@ -1,0 +1,9 @@
+<!ELEMENT concesionario (coches*)>
+<!ELEMENT coches (cod_coche?,marca?,modelo+,matricula?,cv?,plazas?)>
+<!ELEMENT cod_coche (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT cv (#PCDATA)>
+<!ELEMENT plazas (#PCDATA)>
+<!ATTLIST plazas num_puertas (3|5) #REQUIRED>
