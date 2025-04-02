@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="series.xsd">
+
+        <serie id='123' year='2008'>
+            <titulo>Breaking Bad</titulo>
+            <creador>Vince Gilligan</creador>
+            <genero>Drama</genero>
+            <temporadas>5</temporadas>
+            <disponibleEnStreaming>true</disponibleEnStreaming>
+            <clasificacion>TV-MA</clasificacion>
+        </serie>
+        <serie id='432' year='2016'>
+            <titulo>Stranger Things</titulo>
+            <creador>Duffer Brothers</creador>
+            <genero>Ciencia Ficción</genero>
+            <temporadas>4</temporadas>
+            <disponibleEnStreaming>true</disponibleEnStreaming>
+            <clasificacion>TV-14</clasificacion>
+        </serie>
+</catalogo>
