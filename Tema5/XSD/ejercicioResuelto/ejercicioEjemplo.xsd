@@ -1,0 +1,49 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:simpleType name="nombre_incidencia">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="frio"></xs:enumeration>
+            <xs:enumeration value="nieve"></xs:enumeration>
+            <xs:enumeration value="lluvia"></xs:enumeration>
+            <xs:enumeration value="calor"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="severidad_incidencia">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="baja"></xs:enumeration>
+            <xs:enumeration value="media"></xs:enumeration>
+            <xs:enumeration value="alta"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="temperatura_maxima">
+        <xs:restriction base="xs:integer">
+            <xs:maxInclusive value="50"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+      <xs:simpleType name="temperatura_minima">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="-50"></xs:minInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="registro_temperatura">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="provincia" type="xs:string"></xs:element>
+                <xs:element name="fecha" type="xs:date"></xs:element>
+                <xs:element name="temperatura_minima" type="temperatura_minima"></xs:element>
+                <xs:element name="temperatura_maxima" type="temperatura_maxima"></xs:element>
+                <xs:element name="incidencias">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="incedencia" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="nombre" type="nombre_incidencia"></xs:attribute>
+                                    <xs:attribute name="severidad" type="severidad_incidencia"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

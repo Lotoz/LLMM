@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cancion.xsd">
+	<titulo>Can't Buy Me Love</titulo>
+	<año>1964</año>
+	<artista>Beatles</artista>
+</cancion>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cancion.xsd">
+	<titulo>Love Me Do</titulo>
+	<año>1962</año>
+	<artista>Beatles</artista>
+</cancion>
+
