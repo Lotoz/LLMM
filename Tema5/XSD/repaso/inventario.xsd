@@ -1,0 +1,42 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:simpleType name="idioma">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="ES"></xs:enumeration>
+            <xs:enumeration value="EN"></xs:enumeration>
+            <xs:enumeration value="FR"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="patron">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{3}[a-z]{2}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="peso">
+        <xs:restriction base="xs:double">
+            <xs:minInclusive value="50"></xs:minInclusive>
+            <xs:maxInclusive value="1500"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="listaarticulos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="articulo" minOccurs="2" maxOccurs="6" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="codigo" type="patron"></xs:element>
+                            <xs:element name="peso" type="peso"></xs:element>
+                            <!-- Se pone minOccurs para que pueda no aparecer en el sequence y no usar all-->
+                            <xs:element name="descripcion" type="xs:string" minOccurs="0"></xs:element>
+                            <xs:element name="cantidad" minOccurs="0">
+                            <xs:complexType mixed="true">
+                                <xs:attribute name="unidad" type="xs:string"></xs:attribute>
+                            </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="idioma" type="idioma" use="required" ></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

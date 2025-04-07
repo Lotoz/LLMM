@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expedientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="expediente.xsd">
+    <expediente>
+        <titulacion>DAM</titulacion>
+        <estudiante>Ainhoa Gárate Lizarraga</estudiante>
+        <modulos>
+            <modulo nombre="Sistemas Informáticos" aprobado="true" curso="Primero" />
+            <modulo nombre="Lenguajes de Marcas y Sistemas de Gestión de la Información" aprobado="true" curso="Primero"/>
+            <modulo nombre="Programación multimedia y dispositivos móviles" aprobado="false" curso="Segundo" />
+        </modulos>
+    </expediente>
+    <expediente>
+        <titulacion>DAW</titulacion>
+        <estudiante>Ferran Soler Puig</estudiante>
+        <modulos>
+            <modulo nombre="Programación" aprobado="true" curso="Primero" />
+            <modulo nombre="Desarrollo web en entorno cliente" aprobado="false" curso="Segundo" />
+        </modulos>
+    </expediente>
+</expedientes>

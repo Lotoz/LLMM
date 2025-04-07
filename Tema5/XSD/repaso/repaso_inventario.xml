@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Dentro de lista articulos hay entre 2 y 6 articulos-->
+<listaarticulos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="inventario.xsd">
+    <!--Todo articulo lleva un código, a veces una descripción
+    y siempre un peso-->
+    <!--EL idioman siempre lleva un atributo
+            idioma que solo puede ser ES, EN o FR-->
+    <articulo idioma="ES">
+        <!--El código siempre es 3 cifras y dos minúsculas Patrón: \d{3}[a-z]{2}-->
+        <codigo>719cf</codigo>
+        <!--El peso siempre está entre 50 y 1500-->
+        <peso>640</peso> 
+        <cantidad unidad="litros">20</cantidad>
+    </articulo>
+    <articulo idioma="FR">
+        <codigo>904ps</codigo>
+        <peso>1499</peso>
+    </articulo>
+
+</listaarticulos>
