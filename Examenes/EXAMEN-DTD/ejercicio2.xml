@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sudokus SYSTEM 'ejercicio2.dtd'>
+<sudokus>
+  <sudoku tamaño="4x4"></sudoku>
+  <sudoku tamaño="4x4" solucion="1">
+    <dato celda="A2" valor="1"> Dato 1</dato>
+    <dato celda="B2" valor="2"> Dato 2</dato>
+    <dato celda="A3" valor="3">Dato 3</dato>
+    <dato celda="D4" valor="1"> Dato 4</dato>
+  </sudoku>
+</sudokus>

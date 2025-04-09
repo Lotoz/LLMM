@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM 'ejercicio3.dtd'>
+<alumnos>
+    <alumno num_alumno="A1" altura="175cm" sexo="Hombre">
+        <nombre>Jorge</nombre>
+        <apellidos>Linus</apellidos>
+        <domicilio>Calle 3</domicilio>
+        <telefonos>
+            <telefono pertenece="Propio">2167451</telefono>
+            <telefono pertenece="Padre">24562345</telefono>
+        </telefonos>
+        <equiposDeportivos>La mancha</equiposDeportivos>
+        <aficiones>
+            <aficion>Escribir</aficion>
+        </aficiones>
+        <comentarios>
+            <comentario>Buen alumno, callado, participa poco en clase</comentario>
+            <comentario>Ha bajado la nota</comentario>
+        </comentarios>
+        <evaluaciones>
+            <notas evaluacion="Primera">7</notas>
+            <notas evaluacion="Segunda">6</notas>
+        </evaluaciones>
+    </alumno>
+    <alumno num_alumno="A2">
+        <nombre>Indigo</nombre>
+        <apellidos>Ackerman</apellidos>
+        <domicilio>Avenida de la macha</domicilio>
+        <telefonos>
+            <telefono pertenece="Tutor">32323423</telefono>
+            <telefono pertenece="Madre">23213423</telefono>
+        </telefonos>
+        <aficiones>
+            <aficion>Dibujar</aficion>
+            <aficion>Leer</aficion>
+        </aficiones>
+        <comentarios></comentarios>
+        <evaluaciones></evaluaciones>
+    </alumno>
+</alumnos>
