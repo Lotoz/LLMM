@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="producto.xsl" type="text/xsl"?>
+<productos>
+    <producto tipo="electronica">
+        <nombre>Mouse</nombre>
+        <precio>2</precio>
+    </producto>
+    <producto tipo="cocina">
+        <nombre>Papel</nombre>
+        <precio>0</precio>
+    </producto>
+    <producto tipo="estetica">
+        <nombre>Pintalabio</nombre>
+        <precio>5</precio>
+    </producto>
+</productos>

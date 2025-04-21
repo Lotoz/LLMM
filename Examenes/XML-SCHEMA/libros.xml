@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libros.xsd">
+  <libro prestado="false">
+    <titulo>Don Quijote de la Mancha</titulo>
+    <autor nacionalidad="española">
+      <nombre>Miguel de Cervantes</nombre>
+      <edad>68</edad>
+    </autor>
+    <fechaPublicacion>1605-01-16</fechaPublicacion>
+  </libro>
+</biblioteca>
