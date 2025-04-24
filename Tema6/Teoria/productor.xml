@@ -13,4 +13,12 @@
         <nombre>Pintalabio</nombre>
         <precio>5</precio>
     </producto>
+    <producto tipo="electronica">
+        <nombre>CPU</nombre>
+        <precio>60</precio>
+    </producto>
+    <producto tipo="electronica">
+        <nombre>Teclado</nombre>
+        <precio>18</precio>
+    </producto>
 </productos>
