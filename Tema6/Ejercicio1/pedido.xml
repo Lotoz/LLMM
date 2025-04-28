@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="pedido.xsl" type="text/xsl"?>
+<pedido>
+        <portatiles>
+                <portatil>
+                        <peso>1430</peso>
+                        <ram unidad="GB">4</ram>
+                        <disco tipo="sata">500</disco>
+                        <precio>499</precio>
+                </portatil>
+                <portatil>
+                        <peso>1830</peso>
+                        <ram unidad="GB">6</ram>
+                        <disco tipo="ssd">1000</disco>
+                        <precio>1199</precio>
+                </portatil>
+                <portatil>
+                        <peso>1250</peso>
+                        <ram unidad="GB">2</ram>
+                        <disco tipo="ssd">750</disco>
+                        <precio>699</precio>
+                </portatil>
+        </portatiles>
+        <tablets>
+                <tablet>
+                        <plataforma>Android</plataforma>
+                        <caracteristicas>
+                                <memoria medida="GB">2</memoria>
+                                <tamanio medida="pulgadas">6</tamanio>
+                                <bateria>LiPo</bateria>
+                        </caracteristicas>
+                </tablet>
+                <tablet>
+                        <plataforma>iOS</plataforma>
+                        <caracteristicas>
+                                <memoria medida="GB">4</memoria>
+                                <tamanio medida="pulgadas">9</tamanio>
+                                <bateria>LiIon</bateria>
+                        </caracteristicas>
+                </tablet>
+        </tablets>
+</pedido>

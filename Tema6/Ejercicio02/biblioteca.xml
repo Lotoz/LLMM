@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
+
+<biblioteca>
+    <!-- Estilos CSS para mi HTML-->
+    <css>
+        <body>
+            <letra unidad="px">14</letra>
+        </body>
+        <tabla>
+            <tipoBorder>solid</tipoBorder>
+            <tamanioBorder unidad="px">2</tamanioBorder>
+            <colorBorder>blue</colorBorder>
+        </tabla>
+    </css>
+    <!-- Catálogo de libros-->
+    <libro prestado="no">
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <año>1949</año>
+        <categoria>Novela Distópica</categoria>
+    </libro>
+    <libro prestado="sí">
+        <titulo>El Código Da Vinci</titulo>
+        <autor>Dan Brown</autor>
+        <año>2003</año>
+        <categoria>Misterio</categoria>
+    </libro>
+    <libro prestado="no">
+        <titulo>Cien Años de Soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <año>1967</año>
+        <categoria>Realismo Mágico</categoria>
+    </libro>
+</biblioteca>
