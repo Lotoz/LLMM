@@ -1,0 +1,38 @@
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: green;
+    background-color: red;
+    text-align: center;
+}
+.subTitulo{
+    padding-top: 5px;
+}
+.caja{
+    grid-template: repeat(3 1fr)/repeat(2 1fr);
+    grid-template-areas:
+    "div div div"
+    "div div div";
+}
+div {   
+    display: grid;
+    background-color: aliceblue;
+    border-radius: 2px;
+    border: solid black 1px;
+    width: 370px;
+    height: 180px;
+    border-radius: 15px;
+    box-shadow: darkblue;
+    box-shadow: 2px 2px 5px black; 
+    
+}
+div ul{
+    list-style: none;
+}
+.bordeAzul {
+    border: solid blue;
+}
+.letraNegra{
+    font-weight: bolder;
+}

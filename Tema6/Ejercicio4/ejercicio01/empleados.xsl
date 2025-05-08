@@ -21,6 +21,7 @@
                 </tr>
                 <xsl:for-each select="empleado">
                 <xsl:sort select="nombre" order="asedending"/>
+                <xsl:sort select="salario" order="asedending"/>
                 <xsl:choose>
                     <xsl:when  test=" antiguedad &gt; 5 and antiguedad &lt;= 10">
                     <tr>

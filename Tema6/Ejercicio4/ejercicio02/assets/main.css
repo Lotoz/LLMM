@@ -1,0 +1,22 @@
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: green;
+    background-color: red;
+    text-align: center;
+}
+div {
+    background-color: aliceblue;
+    border-radius: 2px;
+    border: thin black 2px;
+}
+div ol{
+    list-style: none;
+}
+.fondoVerde {
+    background-color: rgb(152, 248, 152);
+}
+.letraNegra{
+    font-weight: bolder;
+}
