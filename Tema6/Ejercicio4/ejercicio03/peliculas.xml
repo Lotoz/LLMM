@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas>
+  <pelicula>
+    <titulo>El Padrino</titulo>
+    <genero>Drama</genero>
+    <anio>1972</anio>
+    <duracion>175</duracion>
+  </pelicula>
+  <pelicula>
+    <titulo>Interestelar</titulo>
+    <genero>Ciencia Ficción</genero>
+    <anio>2014</anio>
+    <duracion>169</duracion>
+  </pelicula>
+  <pelicula>
+    <titulo>El Señor de los Anillos: La Comunidad del Anillo</titulo>
+    <genero>Fantasía</genero>
+    <anio>2001</anio>
+    <duracion>178</duracion>
+  </pelicula>
+  <pelicula>
+    <titulo>Toy Story</titulo>
+    <genero>Animación</genero>
+    <anio>1995</anio>
+    <duracion>81</duracion>
+  </pelicula>
+</peliculas>

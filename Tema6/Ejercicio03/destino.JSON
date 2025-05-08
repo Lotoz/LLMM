@@ -1,0 +1,32 @@
+﻿
+        {
+            "cuentas" : [
+            
+                {
+                    "dnititular" : "5671001D",
+                    "creacion" : "13-abril-2012",
+                    "titular" : "Ramon Perez",
+                    "saldoactual" : "12000euros"    
+                },
+                {
+                    "dnititular" : "39812341C",
+                    "creacion" : "15-febrero-2011",
+                    "titular" : "Carmen Diaz",
+                    "saldoactual" : "1900euros"    
+                }    
+            ],
+            "fondos" : [
+                
+                    {
+                        "cuentaasociada" : "20-A",
+                        "cantidaddepositada" : 20000,
+                        "moneda" : "Euros"
+                    },
+                    {
+                        "cuentaasociada" : "21-DX",
+                        "cantidaddepositada" : 4800,
+                        "moneda" : "Dolares"
+                    }    
+                ]
+        }
+    

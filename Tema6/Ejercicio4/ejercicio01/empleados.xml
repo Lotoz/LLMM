@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="empleados.xsl"?>
+<empresa>
+    <empleado>
+        <nombre>Juan Pérez</nombre>
+        <puesto>Desarrollador</puesto>
+        <departamento>TI</departamento>
+        <salario>50000</salario>
+        <antiguedad>5</antiguedad>
+    </empleado>
+    <empleado>
+        <nombre>María Gómez</nombre>
+        <puesto>Gerente de Ventas</puesto>
+        <departamento>Ventas</departamento>
+        <salario>75000</salario>
+        <antiguedad>10</antiguedad>
+    </empleado>
+    <empleado>
+        <nombre>Carlos Ruiz</nombre>
+        <puesto>Analista Financiero</puesto>
+        <departamento>Finanzas</departamento>
+        <salario>60000</salario>
+        <antiguedad>3</antiguedad>
+    </empleado>
+    <empleado>
+        <nombre>Ana López</nombre>
+        <puesto>Diseñadora Gráfica</puesto>
+        <departamento>Marketing</departamento>
+        <salario>45000</salario>
+        <antiguedad>2</antiguedad>
+    </empleado>
+</empresa>

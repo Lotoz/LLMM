@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estudiantes>
+  <estudiante>
+    <nombre>Ana López</nombre>
+    <edad>20</edad>
+    <calificacion>9.5</calificacion>
+  </estudiante>
+  <estudiante>
+    <nombre>Carlos Ruiz</nombre>
+    <edad>22</edad>
+    <calificacion>8.0</calificacion>
+  </estudiante>
+  <estudiante>
+    <nombre>María Gómez</nombre>
+    <edad>21</edad>
+    <calificacion>7.5</calificacion>
+  </estudiante>
+  <estudiante>
+    <nombre>Juan Pérez</nombre>
+    <edad>19</edad>
+    <calificacion>6.0</calificacion>
+  </estudiante>
+</estudiantes>

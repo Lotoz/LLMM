@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="destinoJSON.xsl"?>
+<datos>
+  <cuenta dnititular="5671001D">
+    <creacion>13-abril-2012</creacion>
+    <titular>Ramon Perez</titular>
+    <saldoactual moneda="euros">12000</saldoactual>
+  </cuenta>
+  <cuenta dnititular="39812341C">
+    <creacion>15-febrero-2011</creacion>
+    <titular>Carmen Diaz</titular>
+    <saldoactual moneda="euros">1900</saldoactual>
+  </cuenta>
+  <fondo cuentaasociada="20-A">
+    <cantidaddepositada>20000</cantidaddepositada>
+    <moneda>Euros</moneda>
+  </fondo>
+  <fondo cuentaasociada="21-DX">
+    <cantidaddepositada>4800</cantidaddepositada>
+    <moneda>Dolares</moneda>
+  </fondo>
+</datos>
