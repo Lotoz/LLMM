@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="libros.xsl"?>
+<baseDeDatos>
+    <tabla nombre="Autores">
+        <campo nombre="id" tipo="INT" clavePrimaria="true" />
+        <campo nombre="nombre" tipo="VARCHAR(255)" />
+        <datos>
+            <fila>
+                <id>1</id>
+                <nombre>Gabriel García Márquez</nombre>
+            </fila>
+            <fila>
+                <id>2</id>
+                <nombre>Isabel Allende</nombre>
+            </fila>
+        </datos>
+    </tabla>
+    <tabla nombre="Libros">
+        <campo nombre="id" tipo="INT" clavePrimaria="true" />
+        <campo nombre="titulo" tipo="VARCHAR(255)" />
+        <campo nombre="idAutor" tipo="INT" claveForanea="true" referencia="Autores(id)" />
+        <datos>
+            <fila>
+                <id>101</id>
+                <titulo>Cien años de soledad</titulo>
+                <idAutor>1</idAutor>
+            </fila>
+            <fila>
+                <id>102</id>
+                <titulo>El amor en los tiempos del cólera</titulo>
+                <idAutor>1</idAutor>
+            </fila>
+            <fila>
+                <id>201</id>
+                <titulo>La casa de los espíritus</titulo>
+                <idAutor>2</idAutor>
+            </fila>
+        </datos>
+    </tabla>
+</baseDeDatos>
