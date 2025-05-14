@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="productos.xsl"?>
+<productos>
+  <empresa>
+    <nombre>Grijander S.A.</nombre>
+    <direccion>Calle de la Innovación, 123</direccion>
+  </empresa>
+  <producto>
+    <nombre>Manzana</nombre>
+    <precio moneda="eur">1.20</precio>
+    <peso unidad="kg">0.8</peso>
+    <descripcion>Fruta fresca de temporada</descripcion>
+    <ciudades>
+      <ciudad paquetes="5">Madrid</ciudad>
+      <ciudad paquetes="3">Valencia</ciudad>
+      <ciudad paquetes="4">Sevilla</ciudad>
+    </ciudades>
+  </producto>
+  <producto>
+    <nombre>Portátil</nombre>
+    <precio moneda="usd">799.99</precio>
+    <peso unidad="kg">2.5</peso>
+    <descripcion>Ordenador portátil con 16GB de RAM y SSD</descripcion>
+    <ciudades>
+      <ciudad paquetes="10">New York</ciudad>
+      <ciudad paquetes="7">Miami</ciudad>
+      <ciudad paquetes="5">Los Angeles</ciudad>
+    </ciudades>
+  </producto>
+  <producto>
+    <nombre>Botella de Agua</nombre>
+    <precio moneda="eur">0.60</precio>
+    <peso unidad="kg">0.5</peso>
+    <descripcion>Botella de agua mineral de 1L</descripcion>
+    <ciudades>
+      <ciudad paquetes="8">Barcelona</ciudad>
+      <ciudad paquetes="6">Granada</ciudad>
+    </ciudades>
+  </producto>
+  <producto>
+    <nombre>Impresora</nombre>
+    <precio moneda="usd">120.50</precio>
+    <peso unidad="kg">6.2</peso>
+    <descripcion>Impresora multifunción con Wi-Fi</descripcion>
+    <ciudades>
+      <ciudad paquetes="2">Chicago</ciudad>
+      <ciudad paquetes="3">Houston</ciudad>
+    </ciudades>
+  </producto>
+  <producto>
+    <nombre>Café en grano</nombre>
+    <precio moneda="eur">15.75</precio>
+    <peso unidad="g">750</peso>
+    <descripcion>Café arábica 100% en paquete sellado</descripcion>
+    <ciudades>
+      <ciudad paquetes="4">Berlín</ciudad>
+      <ciudad paquetes="6">París</ciudad>
+      <ciudad paquetes="3">Lisboa</ciudad>
+    </ciudades>
+  </producto>
+</productos>

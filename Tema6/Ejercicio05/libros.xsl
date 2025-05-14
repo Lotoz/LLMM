@@ -48,7 +48,6 @@
                         <xsl:value-of select="@nombre"/> 
                     </xsl:if>
                     );
-               
                 </xsl:for-each>
                 -->
         </xsl:for-each>

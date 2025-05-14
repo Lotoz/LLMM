@@ -1,0 +1,34 @@
+.tablaEstetica {
+    width: 100%;
+    border:solid gray 4px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tablaEstetica th, td {
+    border: 2px solid whitesmoke;
+    padding: 8px;
+}
+th {
+    background-color: ghostwhite;
+}
+h1 {
+    text-align: center;
+}
+.colorVerde{
+    border-color: green;
+}
+.colorRojo{
+    color:red;
+}
+.colorRojoTd{
+    border-color: red;
+}
+.colorAzul{
+    color:blue;
+}
+.colorNaranja{
+    border-color: orange;
+}
+.letraNegra{
+    font-weight: bolder;
+}
