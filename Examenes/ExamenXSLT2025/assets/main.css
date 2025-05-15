@@ -3,6 +3,7 @@
     border:solid gray 4px;
     margin-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
 }
 .tablaEstetica th, td {
     border: 2px solid whitesmoke;
