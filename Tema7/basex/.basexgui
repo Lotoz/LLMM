@@ -1,0 +1,122 @@
+# Version
+UPDATEVERSION = 11.9
+CHECKUPDATES = false
+
+# Paths
+INPUTPATH = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/bailes.xml
+DATAPATH = C:\Users\Zamira\Desktop\basex\
+WORKPATH = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/
+PROJECTPATH = C:/Users/Zamira/Desktop/basex/
+
+# Layout
+FONT = SansSerif
+MONOFONT = Consolas
+FONTSIZE = 15
+LISTMONO = true
+ANTIALIAS = System
+COLORRED = 21
+COLORGREEN = 14
+COLORBLUE = 7
+
+# Windows
+VIEWS = V H editor folder map plot - H text info table tree explore - - 
+GUISIZE0 = 1004
+GUISIZE1 = 748
+GUILOC0 = 10
+GUILOC1 = 10
+MAXSTATE = true
+SHOWBUTTONS = true
+SHOWINPUT = true
+SHOWSTATUS = true
+SHOWINFO = true
+SHOWMAP = true
+SHOWTABLE = false
+SHOWTEXT = true
+SHOWFOLDER = false
+SHOWEXPLORE = false
+SHOWPLOT = false
+SHOWEDITOR = true
+SHOWTREE = false
+SHOWPROJECT = true
+INDENTRESULT = false
+PREFTAB = 0
+LOOKANDFEEL = 
+LABELS = name,label,id
+SCROLLTABS = true
+MOUSEFOCUS = false
+XMLSUFFIXES = xml,xsd,svg,rdf,rss,rng,sch,xhtml
+ASCSORT = true
+CASESORT = true
+MERGEDUPL = false
+COLUMN = 1
+UNICODE = true
+SHOWMARGIN = true
+MARGIN = 80
+TABSPACES = true
+INDENT = 2
+SHOWINVISIBLE = true
+SHOWNL = false
+SHOWLINES = true
+MARKLINE = true
+SAVERUN = false
+PARSEPROJ = true
+AUTO = true
+FILES = *.xml, *.xq*
+SHOWHIDDEN = false
+SEARCHMODE = 0
+FILTERRT = false
+EXECRT = false
+DBNAME = bailes
+LASTINSERT = 1
+
+# Visualizations
+MAPATTS = false
+MAPOFFSETS = 3
+MAPALGO = 0
+MAPWEIGHT = 0
+TREESLIM = true
+TREEATTS = false
+PLOTDOTS = 0
+PLOTXLOG = false
+PLOTYLOG = false
+MAXTEXT = 8388608
+MAXRESULTS = 500000
+
+# Search
+SEARCHED = 0
+REPLACED = 0
+
+# History
+COMMANDS = 0
+SEARCH = 15
+SEARCH1 = /bailes/baile[plazas<15 and precio >40 and  precio/@cuota="trimestral"]
+SEARCH2 = /bailes/baile[plazas<15 and precio >40 and  precio/@cuota=""]
+SEARCH3 = /bailes/baile[plazas<15 and precio >40 and  precio/@cuota]
+SEARCH4 = /bailes/baile[plazas<15 and precio >40 and  ]
+SEARCH5 = /bailes/baile[plazas<15 and precio ]
+SEARCH6 = /bailes/baile[plazas<15 and ]
+SEARCH7 = /bailes/baile[]
+SEARCH8 = /bailes/baile
+SEARCH9 = /bailes/baile/precio/@cuota
+SEARCH10 = /bailes/baile/precio/@couta
+SEARCH11 = /bailes/baile[@id>4]
+SEARCH12 = /bailes/baile/@id
+SEARCH13 = /bailes/bai
+SEARCH14 = /bailes/baile/number(precio)
+SEARCH15 = /bailes/baile/nombre/text()
+XQUERY = 0
+
+# Files
+EDITOR = 1
+EDITOR1 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/anotaciones.xq
+INPUTS = 2
+INPUTS1 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/bailes.xml
+INPUTS2 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/
+OPEN = 1
+OPEN1 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/anotaciones.xq
+PROJECTS = 1
+PROJECTS1 = C:/Users/Zamira/Desktop/basex/
+PROJFILES = 0
+PROJCONTS = 0
+
+# Local Options

@@ -17,6 +17,11 @@
                     <xsl:if test="@clavePrimaria = 'true'">
                         <xsl:text> PRIMARY KEY</xsl:text>
                     </xsl:if>
+                    <xsl:if test="@claveForanea = 'true'">
+                        <xsl:text>REFERENCES</xsl:text>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="@referencia"/>  
+                    </xsl:if>
                     <xsl:if test="position() != last()">,</xsl:if>
                 </xsl:for-each>
             );
@@ -35,8 +40,7 @@
                     </xsl:otherwise>
                 </xsl:choose>    
                 
-                ALTER TABLE Libros ADD CONSTRAINT FK_AUTOR_ID FOREIGN KEY(idAutor) REFERENCES Autores(id);
-    
+         
                 <!--
                      Supongo que se deberia hacer con xsl pero no se me ocurre como hacerlo si no es asi. lo he intentado del siguiente modo con xsl pero falla
                      (Genera campos repetidos)
@@ -49,6 +53,8 @@
                     </xsl:if>
                     );
                 </xsl:for-each>
+                       ALTER TABLE Libros ADD CONSTRAINT FK_AUTOR_ID FOREIGN KEY(idAutor) REFERENCES Autores(id);
+    
                 -->
         </xsl:for-each>
     </xsl:template>
