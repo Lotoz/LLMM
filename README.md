@@ -18,6 +18,10 @@ _Tema 4:_ JavaScript
 
 _Tema 5:_ DTD y XSD (Segunda Parte de XML)
 
+_Tema 6:_ XSLT
+
+_Tema 7:_ XQuery
+
 _SubirNota:_ Actividades por trimestre extras para subir nota.
 
 _Experimentos:_ Experimentos personales.
