@@ -1,12 +1,32 @@
+(:Para recorrer el for y sacar el texto
+for $baile in doc("bailes.xml")/bailes/baile
+return $baile/profesor/text():)
+(:Para poner la etiqueta padre:)
+<bailes>
+{
+for $baile in doc("bailes.xml")/bailes/baile
+where $baile/number(precio)>40
+order by $baile/profesor
+return 
+<baile>
+  <precio>{$baile/number(precio)}</precio> 
+  <profesor>{$baile/profesor/text()}</profesor> 
+  <nombre>{$baile/nombre/text()}</nombre> 
+</baile>
+}</bailes>
+(:<baile>
+  <precio>{$baile/precio/text()}</precio> 
+  <profesor>{$baile/profesor/text()}</profesor> 
+  <nombre>{$baile/nombre/text()}</nombre> 
+</baile>
+('Asi se imprime cadena'):)
+(: <nombre>{$baile/nombre/text()}</nombre> 
+<profesor>{$baile/profesor/text()}</profesor> 
+<precio>{$baile/precio/text()}</precio>
 
-'Comentarios gg
-XPath
-/bailes/baile/nombre/text() Muestra los resultados sin la etiqueta
-/bailes/baile/number(precio)
-/bailes/baile/precio/text()
-Se puede especificar integer y que tipo de dato es
-/bailes/baile[@id>4] selecciona lo mas grandes
-/bailes/baile/precio/@cuota para sacar atributo
-/bailes/baile[plazas<15 and precio >40 and  precio/@cuota="trimestral"] para sacar varias consultas con sus condiciones
-A continuacion empieza XQuery'
+for $baile in doc("bailes.xml")/bailes/baile
+return ('Imprime segun etiquetas cadena'):)
+
+(:Ejercicios:)
+
 
