@@ -1,0 +1,81 @@
+(:
+BAILE
+Ejercicio 1
+for $bailes in doc("bailes.xml")/bailes/baile
+where contains($bailes/nombre, "a")
+order by $bailes/profesor ascending
+return $bailes/nombre/text()
+:)
+
+(:Ejercicio 2
+for $bailes in doc("bailes.xml")/bailes/baile
+where contains($bailes/profesor, "Lozano")
+order by $bailes/plazas descending
+return $bailes/nombre/text()
+:)
+
+(:Ejercicio 3
+for $bailes in doc("bailes.xml")/bailes/baile
+where $bailes/@id/number() != 3 and $bailes/@id/number() != 5
+return
+<baile>
+<nombre>{$bailes/nombre/text()}</nombre>
+<sala>{$bailes/sala/number()}</sala>
+</baile>
+:)
+
+(:Ejercicio 4
+<ol>
+{
+for $bailes in doc("bailes.xml")/bailes/baile
+where contains($bailes/precio/@cuota, "mensual")
+order by $bailes/precio descending
+return
+<li>{$bailes/nombre/text()}-{$bailes/profesor/text()}-{data($bailes/@id)}</li>
+}
+</ol>
+:)
+
+(:Ejercicio5
+for $bailes in doc("bailes.xml")/bailes/baile
+where $bailes/sala/number() = 1 and $bailes/precio/@moneda/text() = "euro" and
+$bailes/precio/number() < 35
+return $bailes/nombre
+:)
+
+
+
+(:IMPRESORAS
+Ejercicio 1
+<ol>
+{
+for $impresoras in doc("impresoras.xml")/impresoras/impresora
+where $impresoras/marca/text() = "HP"
+return
+<li>{data($impresoras/@numSerie)}-{data($impresoras/@tipo))}-{$impresoras/modelo/text()}</li>
+}
+</ol>
+:)
+
+(:Ejercicio 2
+for $impresoras in doc("impresoras.xml")/impresoras/impresora
+where $impresoras/@compra/number() = 2022
+order by $impresoras/marca ascending
+return
+<impresora>
+<marca>{$impresoras/marca/text()}</marca>
+<modelo>{$impresoras/modelo/text()}</modelo>
+</impresora>
+:)
+
+(:Ejercicio 3:)
+<ol>
+{
+for $impresoras in doc("impresoras.xml")/impresoras/impresora
+where contains($impresoras/modelo, "LaserJet") and
+$impresoras/tamanios/tamanio/text() = "A4"
+order by $impresoras/precio descending
+return
+<li>{$impresoras/modelo/text()}</li>
+}
+</ol>

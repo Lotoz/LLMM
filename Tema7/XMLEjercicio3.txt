@@ -1,0 +1,21 @@
+(:RUTA = let $ruta := doc("bailes.xml")/bailes/baile :)
+
+(:Bailes
+Ejercicio 1
+let $precios := doc("bailes.xml")/bailes/baile/number(precio)
+let $maximo := max($precios)
+return $maximo
+:)
+
+(:Ejercicio 2
+let $precios := doc("bailes.xml")/bailes/baile/number(precio)
+let $suma := sum($precios)
+return $suma
+:)
+
+(:Ejercicio 3
+for $baile in $ruta
+where $baile/precio > 30
+return $baile/nombre/text()
+:)
+

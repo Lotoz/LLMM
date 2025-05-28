@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Videoclub>
+
+	<Pelicula id="tt0372784" Precio="85" >
+		<Titulo>Batman inicia</Titulo>
+		<Actores>
+			<Actor>
+				<Nombre>Christian</Nombre>
+				<Apellido>Bale</Apellido>
+			</Actor>
+			<Actor>
+				<Nombre>Michael</Nombre>
+				<Apellido>Cane</Apellido>
+			</Actor>
+		</Actores>
+	</Pelicula>
+
+	<Pelicula id="tt0372787" Precio="25" >
+		<Titulo>Yo yo mismo e Irene</Titulo>
+		<Actores>
+			<Actor>
+				<Nombre>Jim</Nombre>
+				<Apellido>Carrey</Apellido>
+			</Actor>
+			<Actor>
+				<Nombre>Irene</Nombre>
+				<Apellido>Jhonson</Apellido>
+			</Actor>
+		</Actores>
+	</Pelicula>
+
+	<Pelicula id="tt0892255" Precio="100">
+		<Title>Che - El argumento</Title>
+		<Actores>
+			<Actor>
+				<Nombre>Julia</Nombre>
+				<Apellido>Ormond</Apellido>
+			</Actor>
+			<Actor>
+				<Nombre>Benicio</Nombre>
+				<Apellido>Del Toro</Apellido>
+			</Actor>
+			<Actor>
+				<Nombre>Oscar</Nombre>
+				<Apellido>Isaac</Apellido>
+			</Actor>
+		</Actores>
+		<Nota>
+			Vea esta pelicula y además la segunda parte
+		</Nota>
+	</Pelicula>
+
+	<Documental mes="enero" anio="2005">
+		<Titulo>La marcha de los pingüinos</Titulo>
+	</Documental>
+
+</Videoclub>

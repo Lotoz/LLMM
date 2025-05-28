@@ -20,11 +20,11 @@ COLORBLUE = 7
 
 # Windows
 VIEWS = V H editor folder map plot - H text info table tree explore - - 
-GUISIZE0 = 974
-GUISIZE1 = 1047
-GUILOC0 = 953
-GUILOC1 = 0
-MAXSTATE = true
+GUISIZE0 = 976
+GUISIZE1 = 1056
+GUILOC0 = 952
+GUILOC1 = -8
+MAXSTATE = false
 SHOWBUTTONS = true
 SHOWINPUT = true
 SHOWSTATUS = true
