@@ -1,22 +1,82 @@
-(:BAILES. SE DECLARA LA RUTA PERSONALIZADA USADA A CONTINUACION:)
-(:RUTA = let $ruta := doc("bailes.xml")/bailes/baile :)
-
-
-(:Bailes
-Ejercicio 1
-let $precios := doc("bailes.xml")/bailes/baile/number(precio)
-let $maximo := max($precios)
-return $maximo
+(:Bailes:)
+(:Ejercicio 1
+let $maximo := max(doc("bailes.xml")/bailes/baile/precio)
+for $baile in doc("bailes.xml")/bailes/baile
+where $baile/precio/number() = $maximo
+return
+<baile>
+<precio>{$baile/precio/number()}</precio>
+<nombre>{$baile/nombre/text()}</nombre>
+</baile>
 :)
-
 (:Ejercicio 2
-let $precios := doc("bailes.xml")/bailes/baile/number(precio)
-let $suma := sum($precios)
+let $suma := sum(doc("bailes.xml")/bailes/baile/precio)
 return $suma
 :)
-
 (:Ejercicio 3
-let $cantidad :=   $ruta[number(precio) > 30]
-return count($cantidad)
+let $contador := doc("bailes.xml")/bailes/baile [precio > 30]
+return count($contador)
 :)
 
+(:Bookstore:)
+
+(:Ejercicio 1
+let $maximo := doc("Bookstore.xml")/bookstore/book [@category =
+"COOKING"]
+return max($maximo/price)
+:)
+(:Ejercicio 2
+let $minimo := doc("Bookstore.xml")/bookstore/book [@soldout = "true"]
+return min($minimo/price)
+:)
+(:Ejercicio 3
+let $suma := doc("Bookstore.xml")/bookstore [book/title = sale/refbook]
+return sum($suma/book/price)
+:)
+(:Ejercicio 4
+let $libros := doc("Bookstore.xml")/bookstore/book [price = max(price)]
+for $resultado in $libros
+return
+<book>
+<title>{$resultado/title/text()}</title>
+<price>{$resultado/price/number()}</price>
+</book>
+:)
+(:Ejercicio 5
+let $contador := doc("Bookstore.xml")/bookstore/book [@category = "WEB"]
+return avg($contador/price)
+:)
+
+(:IMPRESORAS:)
+(:Ejercicio 1
+let $imprs := doc("impresoras.xml")/impresoras/impresora
+[count(tamanios/tamanio) > 1]
+return
+<impresora>
+<marca>{$imprs/marca/text()}</marca>
+<modelo>{$imprs/modelo/text()}</modelo>
+</impresora>
+:)
+(:Ejercicio 2
+let $imprs := doc("impresoras.xml")/impresoras/impresora
+[count(tamanios/tamanio) = 1 and tamanios/tamanio = "A4"]
+return
+<impresora>
+<marca>{$imprs/marca/text()}</marca>
+<modelo>{$imprs/modelo/text()}</modelo>
+</impresora>
+:)
+
+(:Videoclub:)
+(:Ejercicio 1
+let $pelis := doc("videoclub.xml")/Videoclub/Pelicula
+return <precio>{avg($pelis/@Precio)}</precio>
+:)
+(:Ejercicio 2:)
+let $promedio := avg(doc("videoclub.xml")/Videoclub/Pelicula/@Precio)
+let $pelis := doc("XML/videoclub.xml")/Videoclub/Pelicula [@Precio < $promedio]
+return
+<pelicula>
+<titulo>{$pelis/Titulo/text()}</titulo>
+<precio>{$pelis/@Precio/number()}</precio>
+</pelicula>
