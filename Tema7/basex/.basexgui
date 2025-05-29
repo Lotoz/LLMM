@@ -3,7 +3,7 @@ UPDATEVERSION = 11.9
 CHECKUPDATES = false
 
 # Paths
-INPUTPATH = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/impresoras.xml
+INPUTPATH = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/videoclub.xml
 DATAPATH = C:\Users\Zamira\Desktop\basex\
 WORKPATH = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/
 PROJECTPATH = C:/Users/Zamira/Desktop/basex/
@@ -20,10 +20,10 @@ COLORBLUE = 7
 
 # Windows
 VIEWS = V H editor folder map plot - H text info table tree explore - - 
-GUISIZE0 = 976
-GUISIZE1 = 1056
-GUILOC0 = 952
-GUILOC1 = -8
+GUISIZE0 = 974
+GUISIZE1 = 1047
+GUILOC0 = 953
+GUILOC1 = 0
 MAXSTATE = false
 SHOWBUTTONS = true
 SHOWINPUT = true
@@ -66,7 +66,7 @@ SHOWHIDDEN = false
 SEARCHMODE = 0
 FILTERRT = false
 EXECRT = false
-DBNAME = impresoras
+DBNAME = videoclub
 LASTINSERT = 1
 
 # Visualizations
@@ -107,17 +107,23 @@ SEARCH15 = /bailes/baile/nombre/text()
 XQUERY = 0
 
 # Files
-EDITOR = 3
-EDITOR1 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/Ejercicio1-2.xq
-EDITOR2 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/Ejercicio!.xq
-EDITOR3 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/anotaciones.xq
-INPUTS = 4
-INPUTS1 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/impresoras.xml
-INPUTS2 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/artistas.xml
-INPUTS3 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/bailes.xml
-INPUTS4 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/
-OPEN = 1
-OPEN1 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/Ejercicio1-2.xq
+EDITOR = 5
+EDITOR1 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/ asdasd.xq
+EDITOR2 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/Ejercicio1-2.xq
+EDITOR3 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/Ejercicio3.xq
+EDITOR4 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/Ejercicio!.xq
+EDITOR5 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/anotaciones.xq
+INPUTS = 6
+INPUTS1 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/videoclub.xml
+INPUTS2 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/Bookstore.xml
+INPUTS3 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/impresoras.xml
+INPUTS4 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/artistas.xml
+INPUTS5 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/bailes.xml
+INPUTS6 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/
+OPEN = 3
+OPEN1 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/Ejercicio3.xq
+OPEN2 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/Ejercicio1-2.xq
+OPEN3 = C:/Users/Zamira/GitHub/LLMM/Tema7/basex/Ejercicios/ asdasd.xq
 PROJECTS = 1
 PROJECTS1 = C:/Users/Zamira/Desktop/basex/
 PROJFILES = 0
