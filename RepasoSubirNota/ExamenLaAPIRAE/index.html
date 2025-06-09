@@ -1,0 +1,28 @@
+<!--Se crea un html basico-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Buscar Palabras</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/main.css'>
+</head>
+<body>
+    <!--En class se hace la estetica de la pagina-->
+    <div class="encabezadoCaja">
+        <h1 class="titulo">Consulta del diccionario de la real academia española de la lengua</h1>
+    </div>
+    <div class="inputCaja">
+        <input type="text" name="nombre" class="inputEstetica" id="inputBuscador" />
+        <button class="botonEstetica" id="boton">Buscar</button>
+    </div>
+    <!--Con id hacemos las conexiones a javascript-->
+    <div>
+        <h3 id="palabraBuscada"></h3>
+        <p id="originBuscado"></p>
+    <p id="text" class="textError"></p>
+    </div>
+    <script type="text/javascript" src="./assets/js/codigo.js"></script>
+</body>
+</html>
