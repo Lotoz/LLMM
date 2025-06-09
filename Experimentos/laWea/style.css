@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.cabecera{
+    border: solid grey;
+    background-color: darkgray;
+}
+
+.euro{
+    color: red;
+}
+
+.dolar{
+    color: blue;
+}
+
+.verde{
+    border: solid green;
+}
+
+.rojo{
+    border: solid red;
+}
+
+.naranja{
+    border: solid rgb(255, 136, 0);
+}
+
+table{
+    border: solid;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td{
+    padding: 8px;
+    border: solid thin;
+}
+
+.negrita{
+    font-weight: bolder;
+}

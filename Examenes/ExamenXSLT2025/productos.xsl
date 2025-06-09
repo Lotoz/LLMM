@@ -11,11 +11,11 @@
             </head>
             <body>
                 <!-- Titulo de la pagina recogido de xml-->
-                 <xsl:for-each select="empresa">
+                <xsl:for-each select="empresa">
                     <h1>Lista de productos: <xsl:value-of select="nombre"></xsl:value-of></h1>
-                 </xsl:for-each>
-                 <!-- Creo la tabla-->
-                   <table class="tablaEstetica">
+                </xsl:for-each>
+                <!-- Creo la tabla-->
+                <table class="tablaEstetica">
                     <tr>
                         <th>Nombre</th>
                         <th>Precio</th>
@@ -24,147 +24,134 @@
                         <th>Ciudades</th>
                     </tr>
                     <xsl:for-each select="producto">
-                         <xsl:sort select="precio" data-type="number" order="ascending"/>
-                            <tr>
-                                <!--Si el peso es menor que 1kg se pone de color verde-->
-                                <xsl:if test="peso &lt; 1">
-                                     <!--Hacemos un choosen para cambiar el color de letra segun la moneda-->
-                                     <xsl:choose>
-                                         <xsl:when  test="precio/@moneda = 'usd'">
-                                            <td class="colorVerde">
-                                                <span class="colorAzul"><xsl:value-of select="nombre"></xsl:value-of></span>
-                                            </td>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <td class="colorVerde">
-                                                <span class="colorRojo"><xsl:value-of select="nombre"></xsl:value-of></span>
-                                            </td>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
+                        <xsl:sort select="precio" data-type="number" order="ascending"/>
+                        <tr>
+                            <!--Si el peso es menor que 1kg se pone de color verde-->
+                            ...existing code...
+                            <!--Si el peso es menor que 1kg se pone de color verde-->
+                            <xsl:if test="peso &lt; 1">
+                                <xsl:choose>
+                                    <xsl:when test="precio/@moneda = 'usd'">
+                                        <td class="colorVerde">
+                                            <span class="colorAzul"><xsl:value-of select="nombre"/></span>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <td class="colorVerde">
+                                            <span class="colorRojo"><xsl:value-of select="nombre"/></span>
+                                        </td>
+                                    </xsl:otherwise>
+                                </xsl:choose>
                                 <td class="colorVerde">
-                                    <xsl:value-of select="precio"></xsl:value-of>
-                                    <!--Creamos un choosen para colocar € o $ segun sea necesario-->
+                                    <xsl:value-of select="precio"/>
                                     <xsl:choose>
-                                         <xsl:when  test="precio/@moneda = 'usd'">
-                                            $
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            €
-                                        </xsl:otherwise>
+                                        <xsl:when test="precio/@moneda = 'usd'">$</xsl:when>
+                                        <xsl:otherwise>€</xsl:otherwise>
                                     </xsl:choose>
-                                </td>
-                                  <td class="colorVerde">
-                                    <xsl:value-of select="peso"></xsl:value-of>(<xsl:value-of select="peso/@unidad"></xsl:value-of>)
                                 </td>
                                 <td class="colorVerde">
-                                    <xsl:value-of select="descripcion"></xsl:value-of>
+                                    <xsl:value-of select="peso"/>(<xsl:value-of select="peso/@unidad"/>)
                                 </td>
-                                <!-- Iniciamos otro foreach para recorrer dentro de productos ciudades.-->
-                                    <td class="colorVerde">
-                                        <ul>
-                                        <xsl:for-each select="ciudades">    
-                                        <xsl:sort select="ciudad/@paquetes" data-type="number" order="descending"/>
-                                            <li> <xsl:value-of select="ciudad"></xsl:value-of>(<xsl:value-of select="ciudad/@paquetes"></xsl:value-of>)</li>
-                                        </xsl:for-each>   
-                                        </ul>
-                                    </td>
-                                </xsl:if>
-
-                                <!--Si el peso esta entre 1 y 5 se pone de color rojo-->
-                                <xsl:if test="peso &gt;= 1 and peso &lt;= 5">
-                                     <!--Hacemos un choosen para cambiar el color de letra segun la moneda-->
-                                     <xsl:choose>
-                                         <xsl:when  test="precio/@moneda = 'usd'">
-                                            <td class="colorRojoTd">
-                                                <span class="colorAzul"><xsl:value-of select="nombre"></xsl:value-of></span>
-                                            </td>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <td class="colorRojoTd">
-                                                <span class="colorRojo"><xsl:value-of select="nombre"></xsl:value-of></span>
-                                            </td>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
+                                <td class="colorVerde">
+                                    <xsl:value-of select="descripcion"/>
+                                </td>
+                                <td class="colorVerde">
+                                    <ul>
+                                        <xsl:for-each select="ciudades/ciudad">
+                                            <xsl:sort select="@paquetes" data-type="number" order="descending"/>
+                                            <li>
+                                                <xsl:value-of select="."/> (<xsl:value-of select="@paquetes"/>)
+                                            </li>
+                                        </xsl:for-each>
+                                    </ul>
+                                </td>
+                            </xsl:if>
+                            
+                            <!--Si el peso está entre 1 y 5 se pone de color rojo-->
+                            <xsl:if test="peso &gt;= 1 and peso &lt;= 5">
+                                <xsl:choose>
+                                    <xsl:when test="precio/@moneda = 'usd'">
+                                        <td class="colorRojoTd">
+                                            <span class="colorAzul"><xsl:value-of select="nombre"/></span>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <td class="colorRojoTd">
+                                            <span class="colorRojo"><xsl:value-of select="nombre"/></span>
+                                        </td>
+                                    </xsl:otherwise>
+                                </xsl:choose>
                                 <td class="colorRojoTd">
-                                    <xsl:value-of select="precio"></xsl:value-of>
-                                    <!--Creamos un choosen para colocar € o $ segun sea necesario-->
+                                    <xsl:value-of select="precio"/>
                                     <xsl:choose>
-                                         <xsl:when  test="precio/@moneda = 'usd'">
-                                            $
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            €
-                                        </xsl:otherwise>
+                                        <xsl:when test="precio/@moneda = 'usd'">$</xsl:when>
+                                        <xsl:otherwise>€</xsl:otherwise>
                                     </xsl:choose>
-                                </td>
-                                  <td class="colorRojoTd">
-                                    <xsl:value-of select="peso"></xsl:value-of>(<xsl:value-of select="peso/@unidad"></xsl:value-of>)
                                 </td>
                                 <td class="colorRojoTd">
-                                    <xsl:value-of select="descripcion"></xsl:value-of>
+                                    <xsl:value-of select="peso"/>(<xsl:value-of select="peso/@unidad"/>)
                                 </td>
-                                <!-- Iniciamos otro foreach para recorrer dentro de productos ciudades.-->
-                                    <td class="colorRojoTd">
-                                        <ul>
-                                        <xsl:for-each select="ciudades">  
-                                        <xsl:sort select="ciudad/@paquetes" data-type="number" order="descending"/>  
-                                            <li> <xsl:value-of select="ciudad"></xsl:value-of>(<xsl:value-of select="ciudad/@paquetes"></xsl:value-of>)</li>
-                                        </xsl:for-each>   
-                                        </ul>
-                                    </td>
-                                </xsl:if>
-
-
-                                <!--Si el peso es mayor que 5 se pone de color naranja-->
-                                <xsl:if test="peso &gt; 5">
-                                    <xsl:choose>
-                                         <!--Hacemos un choosen para cambiar el color de letra segun la moneda-->
-                                         <xsl:when  test="precio/@moneda = 'usd'">
-                                            <td class="colorNaranja">
-                                                <span class="colorAzul"><xsl:value-of select="nombre"></xsl:value-of></span>
-                                            </td>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <td class="colorNaranja">
-                                                <span class="colorRojo"><xsl:value-of select="nombre"></xsl:value-of></span>
-                                            </td>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
+                                <td class="colorRojoTd">
+                                    <xsl:value-of select="descripcion"/>
+                                </td>
+                                <td class="colorRojoTd">
+                                    <ul>
+                                        <xsl:for-each select="ciudades/ciudad">
+                                            <xsl:sort select="@paquetes" data-type="number" order="descending"/>
+                                            <li>
+                                                <xsl:value-of select="."/> (<xsl:value-of select="@paquetes"/>)
+                                            </li>
+                                        </xsl:for-each>
+                                    </ul>
+                                </td>
+                            </xsl:if>
+                            
+                            <!--Si el peso es mayor que 5 se pone de color naranja-->
+                            <xsl:if test="peso &gt; 5">
+                                <xsl:choose>
+                                    <xsl:when test="precio/@moneda = 'usd'">
+                                        <td class="colorNaranja">
+                                            <span class="colorAzul"><xsl:value-of select="nombre"/></span>
+                                        </td>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <td class="colorNaranja">
+                                            <span class="colorRojo"><xsl:value-of select="nombre"/></span>
+                                        </td>
+                                    </xsl:otherwise>
+                                </xsl:choose>
                                 <td class="colorNaranja">
-                                    <xsl:value-of select="precio"></xsl:value-of>
-                                    <!--Creamos un choosen para colocar € o $ segun sea necesario-->
+                                    <xsl:value-of select="precio"/>
                                     <xsl:choose>
-                                         <xsl:when  test="precio/@moneda = 'usd'">
-                                            $
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            €
-                                        </xsl:otherwise>
+                                        <xsl:when test="precio/@moneda = 'usd'">$</xsl:when>
+                                        <xsl:otherwise>€</xsl:otherwise>
                                     </xsl:choose>
                                 </td>
-                                  <td class="colorNaranja">
-                                    <xsl:value-of select="peso"></xsl:value-of>(<xsl:value-of select="peso/@unidad"></xsl:value-of>)
+                                <td class="colorNaranja">
+                                    <xsl:value-of select="peso"/>(<xsl:value-of select="peso/@unidad"/>)
                                 </td>
                                 <td class="colorNaranja">
-                                    <xsl:value-of select="descripcion"></xsl:value-of>
+                                    <xsl:value-of select="descripcion"/>
                                 </td>
-                                <!-- Iniciamos otro foreach para recorrer dentro de productos ciudades.-->
-                                    <td class="colorNaranja">
-                                        <ul>
-                                        <xsl:for-each select="ciudades">    
-                                        <xsl:sort select="ciudad/@paquetes" data-type="number" order="descending"/>
-                                            <li> <xsl:value-of select="ciudad"/>(<xsl:value-of select="ciudad/@paquetes"></xsl:value-of>)</li>
-                                        </xsl:for-each>   
-                                        </ul>
-                                    </td>
-                                </xsl:if>
-                            </tr>   
+                                <td class="colorNaranja">
+                                    <ul>
+                                        <xsl:for-each select="ciudades/ciudad">
+                                            <xsl:sort select="@paquetes" data-type="number" order="descending"/>
+                                            <li>
+                                                <xsl:value-of select="."/> (<xsl:value-of select="@paquetes"/>)
+                                            </li>
+                                        </xsl:for-each>
+                                    </ul>
+                                </td>
+                            </xsl:if>
+                            ...existing code...
+                        </tr>   
                     </xsl:for-each>
                 </table>
                 <!-- Recoge la dirreccion del xml-->
                 <xsl:for-each select="empresa">
                     <p>Dirrecion de la empresa: <span class="letraNegra"><xsl:value-of select="direccion"/></span></p>
-                 </xsl:for-each>
+                </xsl:for-each>
             </body>
         </html>
     </xsl:template>
