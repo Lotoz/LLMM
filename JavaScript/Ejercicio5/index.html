@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!--Version mejorada de peliculas-->
+    <h1 class="titulo">Buscador de Peliculas</h1>
+    <div class="buscador">
+            <input type="text" name="peli" class="inputEstetica" id="inputBuscador" />
+            <button class="botonEstetica" id="boton">Buscar</button>
+    </div>
+<table class="tablaPeliculas">
+    <tbody>
+        <tr>
+            <th>Título</th>
+            <td id="tituloPelicula"></td>
+        </tr>
+        <tr>
+            <th>Año</th>
+            <td id="anioPelicula"></td>
+        </tr>
+        <tr>
+            <th>Duracion</th>
+            <td id="duracionPelicula"></td>
+        </tr>
+    </tbody>
+</table>
+<div id="rating"></div>
+<p id="error" class="error"></p>
+    <script type="text/javascript" src="./assets/js/codigo.js"></script>
+</body>
+</html>

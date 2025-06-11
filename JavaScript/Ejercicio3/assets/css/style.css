@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    margin: auto;
+}
+.cajaDeBusqueda{
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+.resultado{
+    text-align: justify;
+}

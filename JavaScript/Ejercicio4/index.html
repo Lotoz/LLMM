@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Mejorada</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="tituloPrincipal">
+         <h1 class="titulo">Pokedex Mejorada</h1>
+    <p class="subtitulo">Busca tu Pokémon favorito por su nombre o número</p>
+    </div>
+    <div class="contenedor">
+        <div class="buscador">
+            <input type="text" name="poke" class="inputEstetica" id="inputBuscador" />
+            <button class="botonEstetica" id="boton">Buscar</button>
+        </div>
+        <div class="pokemon">
+            <h2 id="nombrePokemon"></h2>
+            <p id="alturaPokemon"></p>
+            <p id="tiposPokemon"></p>
+        </div>
+        <div class="imagen">
+            <img id="imagenPokemon" src="" alt="Imagen del Pokémon" />
+            <select id="selectPokemon" class="selectEstetica">
+                <option value="shiny">Shiny</option>
+                <option value="normal">Normal</option>
+            </select>
+        </div>
+    </div>
+    <p id="text" class="textError"></p>
+    <script type="text/javascript" src="./assets/js/codigo.js"></script>
+</body>
+</html>

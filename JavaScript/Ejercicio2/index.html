@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>Personajes de Rick y Morty</h1>
+    <!--Se sacara en una lista los personajes que hay, luego, segun el personaje que se eliga se sacan sus datos y 
+    se muestran en la otra tabla-->
+    <div class="encabezado">
+        <label for="numeroEpisodio">Número de episodio:</label>
+        <input type="number" id="numeroEpisodio" min="1" max="51" placeholder="1-51">
+        <button id="buscarEpisodio">Buscar</button>
+    </div>
+    <div>
+        <table class="tablaEstetica">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Personajes</th>
+                </tr>
+                <tr>
+                    <td id="nombreEpisodio"></td>
+                    <td id="personajesEpisodios"></td>
+                </tr>
+        </table>
+    </div>
+  <!--Creacion de la tabla de los personajes-->
+  <div>
+    <table class="tablaEstetica" id="personajesTabla">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Estado</th>
+        <th>Especie</th>
+        <th>Género</th>
+        <th>Origen</th>
+        <th>Imagen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>  
+        <td id="nombre"></td>
+        <td id="estado"></td>
+        <td id="especie"></td>
+        <td id="genero" class="generoPersonaje"></td>
+        <td id="origen"></td>
+        <td id="imagen"></td>
+        </tr>
+    </tbody>
+  </table>
+  </div>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
